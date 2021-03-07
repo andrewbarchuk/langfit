@@ -52,6 +52,8 @@ if (!function_exists('ieverly_setup')) :
 		register_nav_menus(
 			array(
 				'header' => esc_html__('Header menu', 'ieverly'),
+				'page' => esc_html__('Page menu', 'ieverly'),
+				'info' => esc_html__('Info menu', 'ieverly'),
 				'social' => esc_html__('Social networks', 'ieverly'),
 			)
 		);

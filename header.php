@@ -25,17 +25,28 @@
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
+
 		<header id="masthead" class="site__header">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
-					<div class="col-6 col-md-3 col-lg-2">
+					<div class="col-lg-2 col-md-3">
 						<div class="site__header-branding">
 							<?php the_custom_logo(); ?>
 						</div>
 					</div>
 
-					<div class="col-6 col-md-9 col-lg-10">
+					<div class="col-lg-10 col-md-9">
 						<div class="site__header-box">
+							<nav class="site__header-menu-second">
+								<?php
+								wp_nav_menu(
+									array(
+										'theme_location' => 'page',
+									)
+								);
+								?>
+							</nav>
+
 							<nav class="site__header-menu">
 								<?php
 								wp_nav_menu(

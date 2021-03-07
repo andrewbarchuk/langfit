@@ -18,9 +18,5 @@ Template Name: Home
  */
 
 get_header();
-?>
-
-this home page
-
-<?php
+get_template_part( '/template-parts/home/home-hero' ); 
 get_footer();

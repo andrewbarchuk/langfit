@@ -16,29 +16,40 @@ $black:                       900;
 /* colors
 /––––––––––––––––––––––––*/
 $c-white: #fff;
-$c-accent: #F158A2;
-$c-text: #746565;
-$c-title: #1B1B1B;
-$c-second: rgba(105, 13, 63, 0.03);
-$c-light: #FBF9F9;
-$c-accent-light: #FFE0EF;
+$c-black: #111;
+$c-accent: #4FA2FF;
+$c-text: #1D1D1B;
+$c-background: #F0F4F7;
 
 /* fonts
 /––––––––––––––––––––––––*/
 $f-regular: 'Nexa';
-$f-regular-size: 	16px;
 $f-title: 'Nexa';
+
+$s-small: 	12px;
+$s-normal: 	14px;
+$s-large: 	16px;
 
 /* transitions
 /––––––––––––––––––––––––*/
 $transition_fast:            .3s;
 $transition_slow:            .7s;
 
+/* radius
+/––––––––––––––––––––––––*/
+$r-radius: 4px;
+
+/* paddings
+/––––––––––––––––––––––––*/
+$p-general: 4vw;
+
+/* root vars
+/––––––––––––––––––––––––*/
 :root {
   --c-accent: #{$c-accent};
 }
 
-/* flex center
+/* flex's
 /––––––––––––––––––––––––*/
 @mixin flex-center {
   display: flex;
