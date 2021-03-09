@@ -37,7 +37,7 @@ html {
 
 body {
   display: block;
-  background: $c-white;
+  background: $c-background;
   font-family: $f-regular;
   font-size: $s-normal;
   color: $c-text;
@@ -219,4 +219,23 @@ button {
       margin: 0 10px 0 0;
     }
   }
+}
+
+/*==================================================================================
+  Home offer
+==================================================================================*/
+.home-offer {
+  margin: -50px 0 0;
+
+  .container {
+    background: $c-white;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(14, 119, 255, 0.05%);
+    padding: 150px 50px;
+  }
+}
+
+.title {
+  font-size: 68px;
+  font-weight: $black;
 }
