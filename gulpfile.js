@@ -198,6 +198,8 @@ gulp.task('watch', gulp.parallel('browsersync', function() {
   watch(assets['fonts'], gulp.series('fonts'));
   watch('*.php', browserSync.reload);
   watch('template-parts/*.php', browserSync.reload);
+  watch('*/*.php', browserSync.reload);
+  watch('*/*/*.php', browserSync.reload);
   watch('inc/*.php', browserSync.reload);
 }));
 

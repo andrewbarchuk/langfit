@@ -191,7 +191,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 2px;
   border: none;
-  padding: 12px 20px;
+  padding: 15px 25px;
   border-radius: $r-radius;
   transition: all ease-out $transition_fast;
 }
@@ -231,7 +231,7 @@ button {
     background: $c-white;
     border-radius: 20px;
     box-shadow: 0 30px 60px rgba(14, 119, 255, 0.05%);
-    padding: 150px 50px;
+    padding: 150px 60px;
   }
 }
 
@@ -239,3 +239,149 @@ button {
   font-size: 68px;
   font-weight: $black;
 }
+
+.cta__blue {
+  background: $c-accent;
+  color: $c-white;
+
+  &:hover {
+    background: $c-black;
+  }
+}
+
+.offer__box {
+  margin: 60px 0 0;
+
+  h4 {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 144%;
+    margin: 0 0 70px;
+  }
+}
+
+/*==================================================================================
+  Home video
+==================================================================================*/
+.home-video {
+  margin: 8vw 0 -6px;
+}
+
+.video__box {
+  position: relative;
+  display: table;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.video__box-tag {
+  position: absolute;
+  top: 4.8%;
+  left: 5%;
+  width: 90%;
+  height: 60.5%;
+  background: #000;
+
+  video {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*==================================================================================
+  Home metodology
+==================================================================================*/
+.home-metodology {
+  position: relative;
+  padding: 6vw 0;
+
+  h3 {
+    font-size: 50px;
+    font-weight: $black;
+    text-align: center;
+    line-height: 135%;
+  }
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/*==================================================================================
+  Home about
+==================================================================================*/
+.about__box {
+  align-items: center;
+  margin: 8vw 0;
+
+  h4 {
+    display: block;
+    font-size: 40px;
+    font-weight: $black;
+    line-height: 115%;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 130%;
+    margin: 20px 0 0;
+  }
+}
+
+.about__box-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/*==================================================================================
+  Home benefits
+==================================================================================*/
+.home-benefits {
+  padding: 8vw 0;
+  position: relative;
+}
+
+.benefits__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    margin: 0 40px 0 0;
+  }
+
+  p {
+    font-weight: $black;
+
+    b {
+      font-size: 50px;
+      color: $c-white;
+    }
+
+    span {
+      display: block;
+      font-size: 28px;
+      line-height: 110%;
+    }
+  }
+}
+
+/*==================================================================================
+  Home reviews
+==================================================================================*/
+

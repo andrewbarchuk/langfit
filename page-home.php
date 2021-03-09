@@ -18,6 +18,11 @@ Template Name: Home
  */
 
 get_header();
-get_template_part( '/template-parts/home/home-hero' ); 
-get_template_part( '/template-parts/home/home-offer' ); 
+get_template_part( '/template-parts/home/home-hero' );
+get_template_part( '/template-parts/home/home-offer' );
+get_template_part( '/template-parts/home/home-video' );
+get_template_part( '/template-parts/home/home-metodology' );
+get_template_part( '/template-parts/home/home-about' );
+get_template_part( '/template-parts/home/home-benefits' );
+
 get_footer();
