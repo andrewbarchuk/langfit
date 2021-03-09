@@ -1,46 +1,64 @@
 <?php
 /**
- * Ieverly Theme portfolio meta-box
+ * Ieverly Theme reviews meta-box
  *
  * @package ieverly
  */
 
-function portfolio_info() {  
+function reviews_info() {  
 	global $post; 
 	add_meta_box(  
-		'portfolio_info',
-		__( 'Portfolio settings', 'ieverly' ), 
-		'show_portfolio_info', 
-		'portfolio',
+		'reviews_info',
+		__( 'Reviews settings', 'ieverly' ), 
+		'show_reviews_info', 
+		'reviews',
 		'normal',
 		'high'
 	);
 }
-add_action( 'add_meta_boxes', 'portfolio_info' ); 
+add_action( 'add_meta_boxes', 'reviews_info' ); 
  
-$meta_portfolio = array(
+$meta_reviews = array(
 	array(  
 		'label' => __( 'Show on home?', 'ieverly' ),
 		'desc'  => __( 'Check if show on home page', 'ieverly' ),
-		'id'    => 'portfolio_home_check',
+		'id'    => 'reviews_home_check',
 		'type'  => 'checkbox',
 	),
 	array(  
-		'label' => __( 'Case images', 'ieverly' ),
-		'desc'  => __( 'Select images', 'ieverly' ),
-		'id'    => 'portfolio_gallery',
-		'type'  => 'gallery',
+		'label' => __( 'Show on Schools, Teachers', 'ieverly' ),
+		'desc'  => __( 'Check if show on schools, teachers page', 'ieverly' ),
+		'id'    => 'reviews_st_check',
+		'type'  => 'checkbox',
+	),
+	array(  
+		'label' => __( 'Name description', 'ieverly' ),
+		'desc'  => __( 'Enter text', 'ieverly' ),
+		'id'    => 'reviews_description',
+		'type'  => 'textarea',
+	),
+	array(  
+		'label' => __( 'Fb link', 'ieverly' ),
+		'desc'  => __( 'Enter link', 'ieverly' ),
+		'id'    => 'reviews_fb',
+		'type'  => 'text',
+	),
+	array(  
+		'label' => __( 'Custom link', 'ieverly' ),
+		'desc'  => __( 'Enter link', 'ieverly' ),
+		'id'    => 'reviews_link',
+		'type'  => 'text',
 	),
 );
  
-function show_portfolio_info() {  
-	global $meta_portfolio;
+function show_reviews_info() {  
+	global $meta_reviews;
 	global $post; 
 
 	echo '<input type="hidden" name="custom_meta_box_nonce" value="' . wp_create_nonce( basename( __FILE__ ) ) . '" />';  
  
 	echo '<table class="form-table">';  
-	foreach ( $meta_portfolio as $field ) {  
+	foreach ( $meta_reviews as $field ) {  
 		$meta = get_post_meta( $post->ID, $field['id'], true );  
 		echo '<tr>
                 <th><label for="' . $field['id'] . '">' . $field['label'] . '</label></th>
@@ -106,8 +124,8 @@ function show_portfolio_info() {
 	echo '</table>';
 }
  
-function save_portfolio_info( $post_id ) {  
-	global $meta_portfolio;
+function save_reviews_info( $post_id ) {  
+	global $meta_reviews;
  
 	if ( ! wp_verify_nonce( $_POST['custom_meta_box_nonce'], basename( __FILE__ ) ) ) {  
 		return $post_id;
@@ -123,7 +141,7 @@ function save_portfolio_info( $post_id ) {
 		return $post_id;  
 	}  
  
-	foreach ( $meta_portfolio as $field ) {  
+	foreach ( $meta_reviews as $field ) {  
 		$old = get_post_meta( $post_id, $field['id'], true ); 
 		$new = $_POST[ $field['id'] ];  
 		if ( $new && $new != $old ) { 
@@ -133,4 +151,4 @@ function save_portfolio_info( $post_id ) {
 		}  
 	} // end foreach  
 }  
-add_action( 'save_post', 'save_portfolio_info' );
+add_action( 'save_post', 'save_reviews_info' );

@@ -24,5 +24,8 @@ get_template_part( '/template-parts/home/home-video' );
 get_template_part( '/template-parts/home/home-metodology' );
 get_template_part( '/template-parts/home/home-about' );
 get_template_part( '/template-parts/home/home-benefits' );
+get_template_part( '/template-parts/home/home-reviews' );
+get_template_part( '/template-parts/home/home-howstart' );
+get_template_part( '/template-parts/home/home-price' );
 
 get_footer();

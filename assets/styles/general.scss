@@ -238,6 +238,7 @@ button {
 .title {
   font-size: 68px;
   font-weight: $black;
+  line-height: 110%;
 }
 
 .cta__blue {
@@ -384,4 +385,192 @@ button {
 /*==================================================================================
   Home reviews
 ==================================================================================*/
+.glide__slides {
+  white-space: normal !important;
+  cursor: default !important;
+}
 
+.reviews__box {
+  margin: 80px 0 0;
+
+  .row {
+    align-items: center;
+  }
+
+  h4 {
+    display: block;
+    font-size: 28px;
+  }
+
+  figure {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 20px solid $c-accent;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+}
+
+.reviews__box-description {
+  display: block;
+  margin: 10px 0 20px;
+  font-size: 18px;
+}
+
+.reviews__box-content {
+  font-size: 22px;
+  line-height: 144%;
+}
+
+.reviews__box-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  margin: 30px 0 0;
+
+  a {
+    &:hover {
+      svg {
+        path {
+          fill: $c-black;
+        }
+      }
+    }
+  }
+
+  .svg-icon-link {
+    width: 30px;
+    height: 30px;
+
+    path {
+      fill: $c-accent;
+      transition: fill ease-out $transition_fast;
+    }
+  }
+}
+
+.reviews__slider-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $c-black;
+    border: none;
+    padding: 12px 10px;
+    transition: background ease-out $transition_fast;
+
+    &:hover {
+      background: $c-accent;
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+
+      path {
+        fill: $c-white;
+      }
+    }
+  }
+}
+
+/*==================================================================================
+  Home how start
+==================================================================================*/
+.howstart__box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 120px 0;
+
+  span {
+    font-size: 50px;
+    font-weight: $black;
+    color: $c-accent;
+    margin: 40px 0 0;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+}
+
+.cta__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*==================================================================================
+  Home price
+==================================================================================*/
+.price__list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 80px 0;
+  gap: 5px;
+}
+
+.price__box {
+  flex: 1;
+  background: $c-white;
+  border: 1px solid $c-accent;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.price__free {
+  background: $c-accent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .cta {
+    margin: 15px 0;
+  }
+}
+
+.price__box-num {
+  font-size: 150px;
+  font-weight: $black;
+  line-height: 100%;
+  text-align: center;
+  margin: -10px 0 -30px;
+
+  span {
+    font-size: 40px;
+  }
+}
+
+.price__box-description {
+  text-align: center;
+  font-size: 22px;
+  line-height: 110%;
+  margin: 0 0 10px;
+}

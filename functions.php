@@ -215,5 +215,5 @@ require get_template_directory() . '/inc/svg.php';
 require get_template_directory() . '/inc/meta-box/home.php';
 
 // portfolio
-require get_template_directory() . '/inc/post-type/portfolio.php';
-require get_template_directory() . '/inc/meta-box/portfolio.php';
+require get_template_directory() . '/inc/post-type/reviews.php';
+require get_template_directory() . '/inc/meta-box/reviews.php';
