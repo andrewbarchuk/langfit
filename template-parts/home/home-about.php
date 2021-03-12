@@ -44,8 +44,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="about__box-buttons">
-                    <button class="cta cta__blue"><?php esc_html_e('Learn more', 'ieverly'); ?></button>
-                    <button class="cta cta__black"><?php esc_html_e('Try for free', 'ieverly'); ?></button>
+                    <a href="/" class="cta cta__blue"><?php esc_html_e('Learn more', 'ieverly'); ?></a>
+                    <button data-micromodal-trigger="cta" data-from="try for free (home) responsive" class="cta cta__black"><?php esc_html_e('Try for free', 'ieverly'); ?></button>
                 </div>
             </div>
         </div>

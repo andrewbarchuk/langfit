@@ -91,6 +91,7 @@ button {
 ==================================================================================*/
 .home-hero {
   background: #4FA0FF;
+  position: relative;
 
   .row {
     align-items: center;
@@ -140,6 +141,8 @@ button {
   border: none;
   padding: 15px 25px;
   cursor: pointer;
+  text-decoration: none;
+  line-height: 120%;
   border-radius: $r-radius;
   transition: all ease-out $transition_fast;
 }
@@ -159,6 +162,7 @@ button {
   align-items: center;
   justify-content: flex-start;
   list-style: none;
+  margin: 0 0 30px;
 
   li {
     margin: 0 40px 0 0;
@@ -173,9 +177,10 @@ button {
   Home offer
 ==================================================================================*/
 .home-offer {
-  margin: -50px 0 0;
-
   .container {
+    position: relative;
+    z-index: 2;
+    margin: -50px auto 0;
     background: $c-white;
     border-radius: 20px;
     box-shadow: 0 30px 60px rgba(14, 119, 255, 0.05%);
@@ -199,6 +204,9 @@ button {
 }
 
 .offer__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin: 60px 0 0;
 
   h4 {
@@ -272,6 +280,10 @@ button {
 /*==================================================================================
   Home about
 ==================================================================================*/
+.home-about {
+  padding: 4vw 0 8vw;
+}
+
 .about__box {
   align-items: center;
   margin: 8vw 0;
@@ -333,6 +345,10 @@ button {
 /*==================================================================================
   Home reviews
 ==================================================================================*/
+.home-reviews {
+  padding: 8vw 0 4vw;
+}
+
 .glide__slides {
   white-space: normal !important;
   cursor: default !important;

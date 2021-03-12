@@ -10,6 +10,7 @@
 ?>
 
 <section class="hero home-hero">
+	<img class="bg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/hero__bg.png" alt="hero">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">

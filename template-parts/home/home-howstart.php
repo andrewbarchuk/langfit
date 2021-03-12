@@ -47,7 +47,7 @@
 
         <div class="row">
             <div class="col-12 cta__center">
-                <button class="cta cta__black"><?php esc_html_e('Leave a request', 'ieverly'); ?></button>
+                <button data-micromodal-trigger="cta" data-from="how to start (home)" class="cta cta__black"><?php esc_html_e('Leave a request', 'ieverly'); ?></button>
             </div>
         </div>
     </div>

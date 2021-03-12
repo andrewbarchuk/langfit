@@ -28,7 +28,7 @@
                     <div class="price__box price__free">
                         <div class="price__box-num">0<span>₴</span></div>
                         <div class="price__box-description"><?php esc_html_e('first 3  months', 'ieverly'); ?></div>
-                        <button class="cta cta__black"><?php esc_html_e('Start', 'ieverly'); ?></button>
+                        <button data-micromodal-trigger="cta" data-from="start (home)" class="cta cta__black"><?php esc_html_e('Start', 'ieverly'); ?></button>
                     </div>
 
                     <div class="price__box price__step step__1">
@@ -68,7 +68,7 @@
                             <span><b><?php esc_html_e('1000+', 'ieverly'); ?></b> <?php esc_html_e('Lessons per month', 'ieverly'); ?></span>
                             <div class="divider"></div>
                         </div>
-                        <button class="cta cta__blue"><?php esc_html_e('Contact us', 'ieverly'); ?></button>
+                        <button data-micromodal-trigger="cta" data-from="price contact us (home) responsive" class="cta cta__blue"><?php esc_html_e('Contact us', 'ieverly'); ?></button>
                     </div>
                 </div>
             </div>

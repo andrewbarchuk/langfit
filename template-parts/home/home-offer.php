@@ -22,7 +22,7 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/offer1.svg" alt="offer 1">
                     <h4><?php esc_html_e( 'offer title 1', 'ieverly' ); ?></h4>
                     <p><?php esc_html_e( 'offer description 1', 'ieverly' ); ?></p>
-                    <button data-micromodal-trigger="cta" data-from="offer box 1" class="cta cta__blue"><?php esc_html_e( 'Learn more', 'ieverly' ); ?></button>
+                    <a href="/" class="cta cta__blue"><?php esc_html_e( 'Learn more', 'ieverly' ); ?></a>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/offer2.svg" alt="offer 1">
                     <h4><?php esc_html_e( 'offer title 2', 'ieverly' ); ?></h4>
                     <p><?php esc_html_e( 'offer description 2', 'ieverly' ); ?></p>
-                    <button data-micromodal-trigger="cta" data-from="offer box 2" class="cta cta__blue"><?php esc_html_e( 'Learn more', 'ieverly' ); ?></button>
+                    <a href="/" class="cta cta__blue"><?php esc_html_e( 'Learn more', 'ieverly' ); ?></a>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/offer3.svg" alt="offer 1">
                     <h4><?php esc_html_e( 'offer title 3', 'ieverly' ); ?></h4>
                     <p><?php esc_html_e( 'offer description 3', 'ieverly' ); ?></p>
-                    <button data-micromodal-trigger="cta" data-from="offer box 3" class="cta cta__blue"><?php esc_html_e( 'Learn more', 'ieverly' ); ?></button>
+                    <a href="/" class="cta cta__blue"><?php esc_html_e( 'Learn more', 'ieverly' ); ?></a>
                 </div>
             </div>
         </div>
