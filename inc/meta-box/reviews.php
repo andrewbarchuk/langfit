@@ -20,15 +20,15 @@ add_action( 'add_meta_boxes', 'reviews_info' );
  
 $meta_reviews = array(
 	array(  
-		'label' => __( 'Show on home?', 'ieverly' ),
-		'desc'  => __( 'Check if show on home page', 'ieverly' ),
-		'id'    => 'reviews_home_check',
+		'label' => __( 'Show on Schools?', 'ieverly' ),
+		'desc'  => __( 'Check if show on schools page', 'ieverly' ),
+		'id'    => 'reviews_schools_check',
 		'type'  => 'checkbox',
 	),
 	array(  
-		'label' => __( 'Show on Schools, Teachers', 'ieverly' ),
-		'desc'  => __( 'Check if show on schools, teachers page', 'ieverly' ),
-		'id'    => 'reviews_st_check',
+		'label' => __( 'Show on Teachers?', 'ieverly' ),
+		'desc'  => __( 'Check if show on teachers page', 'ieverly' ),
+		'id'    => 'reviews_teachers_check',
 		'type'  => 'checkbox',
 	),
 	array(  

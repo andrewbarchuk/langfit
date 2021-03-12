@@ -173,7 +173,7 @@ add_action('init', function () {
  * Content width
  */
 function ieverly_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'ieverly_content_width', 1005 );
+	$GLOBALS['content_width'] = apply_filters( 'ieverly_content_width', 1370 );
 }
 add_action( 'after_setup_theme', 'ieverly_content_width', 0 );
 
@@ -192,6 +192,11 @@ function ieverly_scripts()
 	}
 }
 add_action('wp_enqueue_scripts', 'ieverly_scripts');
+
+/**
+ * Sidebars
+ */
+require get_template_directory() . '/inc/sidebars.php';
 
 /**
  * Custom template tags for this theme.
@@ -214,6 +219,8 @@ require get_template_directory() . '/inc/svg.php';
 // home meta
 require get_template_directory() . '/inc/meta-box/home.php';
 
-// portfolio
+/**
+ * Reviews
+ */
 require get_template_directory() . '/inc/post-type/reviews.php';
 require get_template_directory() . '/inc/meta-box/reviews.php';

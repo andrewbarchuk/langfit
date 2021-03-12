@@ -1,0 +1,573 @@
+# Copyright (C) 2021 Andrew Barchuk
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ieverly 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/langfit\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-10T22:19:00+00:00\n"
+"PO-Revision-Date: 2021-03-10 23:03+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ieverly\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.5.1; wp-5.7"
+
+#: template-parts/home/home-price.php:68
+msgid "1000+"
+msgstr ""
+
+#: inc/post-type/reviews.php:14
+msgid "Add New"
+msgstr ""
+
+#: inc/post-type/reviews.php:15
+msgid "Add New case"
+msgstr ""
+
+#: inc/post-type/reviews.php:52
+msgid "Add New reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:55
+msgid "Add or remove reviews tags"
+msgstr ""
+
+#: inc/post-type/reviews.php:47
+msgid "All reviews tags"
+msgstr ""
+
+#. Author of the theme
+msgid "Andrew Barchuk"
+msgstr ""
+
+#: template-parts/home/home-benefits.php:21
+msgid "benefits description 1"
+msgstr "Кількість проведених уроків"
+
+#: template-parts/home/home-benefits.php:31
+msgid "benefits description 2"
+msgstr "Кількість активних викладачів"
+
+#: template-parts/home/home-benefits.php:41
+msgid "benefits description 3"
+msgstr "Кількість активних студентів"
+
+#: template-parts/home/home-benefits.php:20
+msgid "benefits title 1"
+msgstr "+50000"
+
+#: template-parts/home/home-benefits.php:30
+msgid "benefits title 2"
+msgstr "+150"
+
+#: template-parts/home/home-benefits.php:40
+msgid "benefits title 3"
+msgstr "+600"
+
+#: inc/meta-box/reviews.php:24
+msgid "Check if show on schools page"
+msgstr ""
+
+#: inc/meta-box/reviews.php:30
+msgid "Check if show on teachers page"
+msgstr ""
+
+#: inc/meta-box/home.php:44
+msgid "Check photos for slider"
+msgstr ""
+
+#: inc/post-type/reviews.php:56
+msgid "Choose from the most used reviews tags"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: footer.php:20 template-parts/home/home-price.php:71
+msgid "Contact us"
+msgstr "Зв’яжіться з нами"
+
+#: inc/meta-box/reviews.php:47
+msgid "Custom link"
+msgstr ""
+
+#: inc/template-tags.php:74
+msgid "Custom settings"
+msgstr ""
+
+#. Description of the theme
+msgid "Custom theme"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "E-mail"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/post-type/reviews.php:16
+msgid "Edit case"
+msgstr ""
+
+#: inc/post-type/reviews.php:50
+msgid "Edit reviews tag"
+msgstr ""
+
+#: inc/meta-box/home.php:38
+msgid "Enter description"
+msgstr ""
+
+#: inc/meta-box/reviews.php:42 inc/meta-box/reviews.php:48
+msgid "Enter link"
+msgstr ""
+
+#: inc/meta-box/home.php:26
+msgid "Enter name"
+msgstr ""
+
+#: inc/meta-box/home.php:32
+msgid "Enter slogan"
+msgstr ""
+
+#: inc/meta-box/home.php:62 inc/meta-box/home.php:68 inc/meta-box/home.php:74
+#: inc/meta-box/reviews.php:36
+msgid "Enter text"
+msgstr ""
+
+#: inc/meta-box/home.php:50
+msgid "Enter title"
+msgstr ""
+
+#: inc/meta-box/reviews.php:41
+msgid "Fb link"
+msgstr ""
+
+#: template-parts/home/home-price.php:30
+msgid "first 3  months"
+msgstr "Перші 3 місяці безкоштовно"
+
+#: template-parts/home/home-price.php:36 template-parts/home/home-price.php:44
+#: template-parts/home/home-price.php:52 template-parts/home/home-price.php:60
+msgid "For a lesson"
+msgstr "За урок"
+
+#: footer.php:41
+msgid "General information"
+msgstr "Загальна інформація"
+
+#: functions.php:54
+msgid "Header menu"
+msgstr ""
+
+#: template-parts/home/home-hero.php:19
+msgid "hero description 1"
+msgstr "Переведіть навчання в онлайн у найкоротші строки"
+
+#: template-parts/home/home-hero.php:20
+msgid "hero description 2"
+msgstr "Автоматизуйте рутинні робочі процеси"
+
+#: template-parts/home/home-hero.php:21
+msgid "hero description 3"
+msgstr "Отримайте доступ до інноваційної методології викладання"
+
+#: inc/meta-box/home.php:43
+msgid "Hero slider"
+msgstr ""
+
+#: template-parts/home/home-hero.php:17
+msgid "hero title"
+msgstr "Платформа для мовних шкіл та викладачів"
+
+#: inc/meta-box/home.php:55
+msgid "History image"
+msgstr ""
+
+#: inc/meta-box/home.php:61
+msgid "History portfolio description"
+msgstr ""
+
+#: inc/meta-box/home.php:49
+msgid "History title"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home"
+msgstr ""
+
+#: inc/meta-box/home.php:13
+msgid "Home settings"
+msgstr ""
+
+#: template-parts/home/home-howstart.php:22
+msgid "how start box title 1"
+msgstr "Залиште заявку"
+
+#: template-parts/home/home-howstart.php:29
+msgid "how start box title 2"
+msgstr "Зачекайте на відповідь нашого менеджера"
+
+#: template-parts/home/home-howstart.php:36
+msgid "how start box title 3"
+msgstr "Отримайте доступ до платформи та детальні інструкції"
+
+#: template-parts/home/home-howstart.php:43
+msgid "how start box title 4"
+msgstr "Розпочніть роботу онлайн"
+
+#: template-parts/home/home-howstart.php:14
+msgid "How to start"
+msgstr "Як розпочати"
+
+#. Theme URI of the theme
+msgid "http://andrewbarchuk.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://andrewbarchuk.com/ieverly"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "ieverly"
+msgstr ""
+
+#: functions.php:56
+msgid "Info menu"
+msgstr ""
+
+#: inc/meta-box/home.php:73
+msgid "Instagram"
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/sidebars.php:11
+msgid "Language switcher"
+msgstr ""
+
+#: template-parts/home/home-about.php:47 template-parts/home/home-offer.php:25
+#: template-parts/home/home-offer.php:34 template-parts/home/home-offer.php:43
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+#: template-parts/home/home-howstart.php:50
+msgid "Leave a request"
+msgstr "Залишити заявку"
+
+#: template-parts/home/home-price.php:39 template-parts/home/home-price.php:47
+#: template-parts/home/home-price.php:55 template-parts/home/home-price.php:63
+#: template-parts/home/home-price.php:68
+msgid "Lessons per month"
+msgstr "уроків в місяць"
+
+#: template-parts/home/home-metodology.php:16
+msgid "Methodology"
+msgstr ""
+
+#: template-parts/home/home-about.php:17
+msgid "methodology description 1"
+msgstr ""
+
+#: template-parts/home/home-about.php:30
+msgid "methodology description 2"
+msgstr ""
+
+#: template-parts/home/home-about.php:37
+msgid "methodology description 3"
+msgstr ""
+
+#: template-parts/home/home-about.php:16
+msgid "methodology title 1"
+msgstr ""
+
+#: template-parts/home/home-about.php:29
+msgid "methodology title 2"
+msgstr ""
+
+#: template-parts/home/home-about.php:36
+msgid "methodology title 3"
+msgstr ""
+
+#: inc/meta-box/home.php:25
+msgid "Name"
+msgstr ""
+
+#: inc/meta-box/reviews.php:35
+msgid "Name description"
+msgstr ""
+
+#: inc/post-type/reviews.php:17
+msgid "New case"
+msgstr ""
+
+#: inc/post-type/reviews.php:53
+msgid "New reviews tag Name"
+msgstr ""
+
+#: single.php:26
+msgid "Next Post"
+msgstr ""
+
+#: inc/post-type/reviews.php:20
+msgid "No case found"
+msgstr ""
+
+#: inc/post-type/reviews.php:21
+msgid "No case found in Trash"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/home/home-offer.php:24
+msgid "offer description 1"
+msgstr ""
+"Переведіть школу в онлайн у найкоротші\n"
+"строки, автоматизуйте контроль над бізнесом\n"
+"та масштабуйтесь."
+
+#: template-parts/home/home-offer.php:33
+msgid "offer description 2"
+msgstr ""
+"Забудьте про безліч відкритих вкладок,\n"
+"документів та месенджерів - процес\n"
+"викладання стає комфортнішим.\n"
+
+#: template-parts/home/home-offer.php:42
+msgid "offer description 3"
+msgstr ""
+"Запустіть власний навчальний онлайн проект на базі готових матеріалів, "
+"методології та функціоналу."
+
+#: template-parts/home/home-offer.php:23
+msgid "offer title 1"
+msgstr "Мовним школам "
+
+#: template-parts/home/home-offer.php:32
+msgid "offer title 2"
+msgstr "Викладачам іноземних мов"
+
+#: template-parts/home/home-offer.php:41
+msgid "offer title 3"
+msgstr "Відкрити власну школу"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: functions.php:55
+msgid "Page menu"
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#: inc/post-type/reviews.php:48
+msgid "Parent reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:49
+msgid "Parent reviews tag:"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid "Phone number"
+msgstr ""
+
+#: inc/post-type/reviews.php:46
+msgid "Popular reviews tags"
+msgstr ""
+
+#: inc/meta-box/home.php:67
+msgid "Portfolio title"
+msgstr ""
+
+#: single.php:25
+msgid "Preview Post"
+msgstr ""
+
+#: template-parts/home/home-price.php:38
+msgid "price count 1"
+msgstr "1 - 300"
+
+#: template-parts/home/home-price.php:46
+msgid "price count 2"
+msgstr "301 - 400"
+
+#: template-parts/home/home-price.php:54
+msgid "price count 3"
+msgstr "401 - 600"
+
+#: template-parts/home/home-price.php:62
+msgid "price count 4"
+msgstr "601 - 1000"
+
+#: template-parts/home/home-price.php:20
+msgid "Price description"
+msgstr ""
+"Ми цінуємо ваші результати та лояльність. Більше занять - менша оплата за "
+"користування сервісом. Жодних додаткових платежів під час пауз у "
+"користуванні платформою."
+
+#: template-parts/home/home-price.php:79
+msgid "Price info"
+msgstr "Ціни переглядаються щорічно в кінці першого кварталу (31 березня)."
+
+#: template-parts/home/home-price.php:35
+msgid "price step 1"
+msgstr "14.99 ₴"
+
+#: template-parts/home/home-price.php:43
+msgid "price step 2"
+msgstr "12.99 ₴"
+
+#: template-parts/home/home-price.php:51
+msgid "price step 3"
+msgstr "9.99 ₴"
+
+#: template-parts/home/home-price.php:59
+msgid "price step 4"
+msgstr "6.99 ₴"
+
+#: template-parts/home/home-price.php:16
+msgid "Price title"
+msgstr "Більше викладаєте - менше платите"
+
+#: inc/template-functions.php:38
+msgid "Read post"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/post-type/reviews.php:12 inc/post-type/reviews.php:13
+msgid "Reviews"
+msgstr ""
+
+#: inc/meta-box/reviews.php:12
+msgid "Reviews settings"
+msgstr ""
+
+#: inc/post-type/reviews.php:43 inc/post-type/reviews.php:44
+msgid "Reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:57
+msgid "Reviews tags"
+msgstr ""
+
+#: template-parts/home/home-reviews.php:16
+msgid "Reviews title"
+msgstr "Про нас відгукуються"
+
+#: inc/post-type/reviews.php:19
+msgid "Search case"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/post-type/reviews.php:45
+msgid "Search reviews tags"
+msgstr ""
+
+#: inc/meta-box/home.php:56
+msgid "Select image"
+msgstr ""
+
+#: inc/post-type/reviews.php:54
+msgid "Separate reviews tags with commas"
+msgstr ""
+
+#: inc/meta-box/reviews.php:23
+msgid "Show on Schools?"
+msgstr ""
+
+#: inc/meta-box/reviews.php:29
+msgid "Show on Teachers?"
+msgstr ""
+
+#: inc/meta-box/home.php:31
+msgid "Slogan"
+msgstr ""
+
+#: inc/meta-box/home.php:37
+msgid "Slogan description"
+msgstr ""
+
+#: functions.php:57
+msgid "Social networks"
+msgstr ""
+
+#: footer.php:28
+msgid "Solutions"
+msgstr "Рішення"
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/home/home-price.php:31
+msgid "Start"
+msgstr "Почати"
+
+#: inc/template-tags.php:77
+msgid "Theme settings"
+msgstr ""
+
+#: template-parts/home/home-about.php:48 template-parts/home/home-hero.php:23
+msgid "Try for free"
+msgstr "Спробувати безкоштовно"
+
+#: inc/post-type/reviews.php:51
+msgid "Update reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:18
+msgid "View case"
+msgstr ""
+
+#: template-parts/home/home-offer.php:15
+msgid "We offer"
+msgstr "Ми пропонуємо"

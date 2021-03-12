@@ -4,15 +4,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ieverly 1.0.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/langfit\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-03-10T22:49:01+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.4.0\n"
+"POT-Creation-Date: 2021-03-10T22:19:00+00:00\n"
+"PO-Revision-Date: 2021-03-10 22:19+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Domain: ieverly\n"
+"\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.5.1; wp-5.7"
 
 #. Theme Name of the theme
 msgid "ieverly"
@@ -57,19 +62,6 @@ msgstr[1] ""
 
 #: comments.php:68
 msgid "Comments are closed."
-msgstr ""
-
-#: footer.php:20
-#: template-parts/home/home-price.php:71
-msgid "Contact us"
-msgstr ""
-
-#: footer.php:28
-msgid "Solutions"
-msgstr ""
-
-#: footer.php:41
-msgid "General information"
 msgstr ""
 
 #: functions.php:54
@@ -144,9 +136,7 @@ msgstr ""
 msgid "History portfolio description"
 msgstr ""
 
-#: inc/meta-box/home.php:62
-#: inc/meta-box/home.php:68
-#: inc/meta-box/home.php:74
+#: inc/meta-box/home.php:62 inc/meta-box/home.php:68 inc/meta-box/home.php:74
 #: inc/meta-box/reviews.php:36
 msgid "Enter text"
 msgstr ""
@@ -187,8 +177,7 @@ msgstr ""
 msgid "Fb link"
 msgstr ""
 
-#: inc/meta-box/reviews.php:42
-#: inc/meta-box/reviews.php:48
+#: inc/meta-box/reviews.php:42 inc/meta-box/reviews.php:48
 msgid "Enter link"
 msgstr ""
 
@@ -196,8 +185,7 @@ msgstr ""
 msgid "Custom link"
 msgstr ""
 
-#: inc/post-type/reviews.php:12
-#: inc/post-type/reviews.php:13
+#: inc/post-type/reviews.php:12 inc/post-type/reviews.php:13
 msgid "Reviews"
 msgstr ""
 
@@ -233,8 +221,7 @@ msgstr ""
 msgid "No case found in Trash"
 msgstr ""
 
-#: inc/post-type/reviews.php:43
-#: inc/post-type/reviews.php:44
+#: inc/post-type/reviews.php:43 inc/post-type/reviews.php:44
 msgid "Reviews tag"
 msgstr ""
 
@@ -298,22 +285,6 @@ msgstr ""
 msgid "Read post"
 msgstr ""
 
-#: inc/template-tags.php:74
-msgid "Custom settings"
-msgstr ""
-
-#: inc/template-tags.php:77
-msgid "Theme settings"
-msgstr ""
-
-#: inc/template-tags.php:95
-msgid "Phone number"
-msgstr ""
-
-#: inc/template-tags.php:118
-msgid "E-mail"
-msgstr ""
-
 #. Template Name of the theme
 msgid "Home"
 msgstr ""
@@ -337,15 +308,20 @@ msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
 #: template-parts/content-page.php:25
@@ -355,66 +331,6 @@ msgstr ""
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-page.php:39
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
-
-#: template-parts/home/home-about.php:16
-msgid "methodology title 1"
-msgstr ""
-
-#: template-parts/home/home-about.php:17
-msgid "methodology description 1"
-msgstr ""
-
-#: template-parts/home/home-about.php:29
-msgid "methodology title 2"
-msgstr ""
-
-#: template-parts/home/home-about.php:30
-msgid "methodology description 2"
-msgstr ""
-
-#: template-parts/home/home-about.php:36
-msgid "methodology title 3"
-msgstr ""
-
-#: template-parts/home/home-about.php:37
-msgid "methodology description 3"
-msgstr ""
-
-#: template-parts/home/home-about.php:47
-#: template-parts/home/home-offer.php:25
-#: template-parts/home/home-offer.php:34
-#: template-parts/home/home-offer.php:43
-msgid "Learn more"
-msgstr ""
-
-#: template-parts/home/home-about.php:48
-#: template-parts/home/home-hero.php:23
-msgid "Try for free"
-msgstr ""
-
-#: template-parts/home/home-benefits.php:20
-msgid "benefits title 1"
-msgstr ""
-
-#: template-parts/home/home-benefits.php:21
-msgid "benefits description 1"
-msgstr ""
-
-#: template-parts/home/home-benefits.php:30
-msgid "benefits title 2"
-msgstr ""
-
-#: template-parts/home/home-benefits.php:31
-msgid "benefits description 2"
-msgstr ""
-
-#: template-parts/home/home-benefits.php:40
-msgid "benefits title 3"
-msgstr ""
-
-#: template-parts/home/home-benefits.php:41
-msgid "benefits description 3"
 msgstr ""
 
 #: template-parts/home/home-hero.php:17
@@ -433,133 +349,6 @@ msgstr ""
 msgid "hero description 3"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:14
-msgid "How to start"
-msgstr ""
-
-#: template-parts/home/home-howstart.php:22
-msgid "how start box title 1"
-msgstr ""
-
-#: template-parts/home/home-howstart.php:29
-msgid "how start box title 2"
-msgstr ""
-
-#: template-parts/home/home-howstart.php:36
-msgid "how start box title 3"
-msgstr ""
-
-#: template-parts/home/home-howstart.php:43
-msgid "how start box title 4"
-msgstr ""
-
-#: template-parts/home/home-howstart.php:50
-msgid "Leave a request"
-msgstr ""
-
-#: template-parts/home/home-metodology.php:16
-msgid "Methodology"
-msgstr ""
-
-#: template-parts/home/home-offer.php:15
-msgid "We offer"
-msgstr ""
-
-#: template-parts/home/home-offer.php:23
-msgid "offer title 1"
-msgstr ""
-
-#: template-parts/home/home-offer.php:24
-msgid "offer description 1"
-msgstr ""
-
-#: template-parts/home/home-offer.php:32
-msgid "offer title 2"
-msgstr ""
-
-#: template-parts/home/home-offer.php:33
-msgid "offer description 2"
-msgstr ""
-
-#: template-parts/home/home-offer.php:41
-msgid "offer title 3"
-msgstr ""
-
-#: template-parts/home/home-offer.php:42
-msgid "offer description 3"
-msgstr ""
-
-#: template-parts/home/home-price.php:16
-msgid "Price title"
-msgstr ""
-
-#: template-parts/home/home-price.php:20
-msgid "Price description"
-msgstr ""
-
-#: template-parts/home/home-price.php:30
-msgid "first 3  months"
-msgstr ""
-
-#: template-parts/home/home-price.php:31
-msgid "Start"
-msgstr ""
-
-#: template-parts/home/home-price.php:35
-msgid "price step 1"
-msgstr ""
-
-#: template-parts/home/home-price.php:36
-#: template-parts/home/home-price.php:44
-#: template-parts/home/home-price.php:52
-#: template-parts/home/home-price.php:60
-msgid "For a lesson"
-msgstr ""
-
-#: template-parts/home/home-price.php:38
-msgid "price count 1"
-msgstr ""
-
-#: template-parts/home/home-price.php:39
-#: template-parts/home/home-price.php:47
-#: template-parts/home/home-price.php:55
-#: template-parts/home/home-price.php:63
-#: template-parts/home/home-price.php:68
-msgid "Lessons per month"
-msgstr ""
-
-#: template-parts/home/home-price.php:43
-msgid "price step 2"
-msgstr ""
-
-#: template-parts/home/home-price.php:46
-msgid "price count 2"
-msgstr ""
-
-#: template-parts/home/home-price.php:51
-msgid "price step 3"
-msgstr ""
-
-#: template-parts/home/home-price.php:54
-msgid "price count 3"
-msgstr ""
-
-#: template-parts/home/home-price.php:59
-msgid "price step 4"
-msgstr ""
-
-#: template-parts/home/home-price.php:62
-msgid "price count 4"
-msgstr ""
-
-#: template-parts/home/home-price.php:68
-msgid "1000+"
-msgstr ""
-
-#: template-parts/home/home-price.php:79
-msgid "Price info"
-msgstr ""
-
-#: template-parts/home/home-reviews.php:16
-msgid "Reviews title"
+#: template-parts/home/home-hero.php:23
+msgid "Try for free"
 msgstr ""

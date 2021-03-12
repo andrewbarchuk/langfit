@@ -14,13 +14,13 @@
 		<div class="row">
 			<div class="col-lg-7">
 				<div class="hero__text">
-					<h1>Платформа для мовних шкіл та викладачів</h1>
+					<h1><?php esc_html_e( 'hero title', 'ieverly' ); ?></h1>
 					<ul class="hero__text-benefits">
-						<li>Переведіть навчання в онлайн у найкоротші строки.</li>
-						<li>Автоматизуйте рутинні робочі процеси.</li>
-						<li>Отримайте доступ до інноваційної методології викладання.</li>
+						<li><?php esc_html_e( 'hero description 1', 'ieverly' ); ?></li>
+						<li><?php esc_html_e( 'hero description 2', 'ieverly' ); ?></li>
+						<li><?php esc_html_e( 'hero description 3', 'ieverly' ); ?></li>
 					</ul>
-					<button class="cta cta__black">спробувати безкоштовно</button>
+					<button data-micromodal-trigger="cta" data-from="hero" class="cta cta__black"><?php esc_html_e( 'Try for free', 'ieverly' ); ?></button>
 					<ul class="hero__text-lang">
 						<li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/eng.svg" alt="english"></li>
 						<li><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/spa.svg" alt="spain"></li>

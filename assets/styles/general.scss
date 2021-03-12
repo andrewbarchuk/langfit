@@ -27,9 +27,6 @@
 }
 
 html {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: -webkit-fill-available;
@@ -77,69 +74,15 @@ button {
   cursor: pointer;
 }
 
-/*==================================================================================
-  HEADER
-==================================================================================*/
-.site__header {
-  background: $c-background;
-  padding: 20px 0;
+.not-found {
+  display: block;
+  background: $c-accent;
+  color: $c-white;
+  padding: 2vw;
+  margin: 40px 0;
 
-  .row {
-    align-items: center;
-  }
-}
-
-.site__header-menu-button {
-  display: none;
-}
-
-.site__header-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.site__header-menu-second {
-  ul {
-    display: flex;
-    list-style: none;
-    margin: 0 30px 0 0;
-
-    li{
-      a {
-        font-size: 18px;
-        text-decoration: none;
-        color: $c-text;
-        margin: 0 10px;
-        transition: color ease-out $transition_fast;
-
-        &:hover {
-          color: $c-accent;
-        }
-      }
-    }
-  }
-}
-
-.site__header-menu {
-  ul {
-    display: flex;
-    list-style: none;
-
-    li{
-      a {
-        font-size: 24px;
-        text-decoration: none;
-        color: $c-text;
-        margin: 0 20px;
-        font-weight: $black;
-        transition: color ease-out $transition_fast;
-
-        &:hover {
-          color: $c-accent;
-        }
-      }
-    }
+  h4 {
+    font-size: 24px;
   }
 }
 
@@ -182,6 +125,10 @@ button {
   }
 }
 
+.hero__image {
+  margin: 0 0 40px;
+}
+
 .cta {
   display: flex;
   align-items: center;
@@ -192,6 +139,7 @@ button {
   letter-spacing: 2px;
   border: none;
   padding: 15px 25px;
+  cursor: pointer;
   border-radius: $r-radius;
   transition: all ease-out $transition_fast;
 }
@@ -298,9 +246,9 @@ button {
 }
 
 /*==================================================================================
-  Home metodology
+  Home methodology
 ==================================================================================*/
-.home-metodology {
+.home-methodology {
   position: relative;
   padding: 6vw 0;
 
@@ -528,9 +476,15 @@ button {
 /*==================================================================================
   Home price
 ==================================================================================*/
+.price__description {
+  font-size: 22px;
+  margin: 30px 0 0;
+  padding: 0 15px 0 0;
+}
+
 .price__list {
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;
   justify-content: space-between;
   margin: 80px 0;
   gap: 5px;
@@ -540,7 +494,7 @@ button {
   flex: 1;
   background: $c-white;
   border: 1px solid $c-accent;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 20px;
 }
 
@@ -550,6 +504,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 5%;
 
   .cta {
     margin: 15px 0;
@@ -572,5 +527,178 @@ button {
   text-align: center;
   font-size: 22px;
   line-height: 110%;
-  margin: 0 0 10px;
+}
+
+.price__step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px 20px;
+
+  span {
+    font-size: 18px;
+    line-height: 120%;
+  }
+}
+
+.price__step-num {
+  font-size: 36px;
+  font-weight: $black;
+  line-height: 100%;
+}
+
+.price__step-count {
+  font-size: 26px;
+  font-weight: $black;
+}
+
+.divider {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background: $c-accent;
+  margin: 30px 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    background: $c-white;
+    border: 1px solid $c-accent;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.step__1 {
+  .divider {
+    &::before {
+      left: 10px;
+    }
+  }
+}
+
+.step__2 {
+  border: 2px solid $c-accent;
+
+  .divider {
+    height: 2px;
+
+    &::before {
+      border: 2px solid $c-accent;
+    }
+  }
+}
+
+.step__3 {
+  border: 3px solid $c-accent;
+
+  .divider {
+    height: 3px;
+
+    &::before {
+      border: 3px solid $c-accent;
+    }
+  }
+}
+
+.step__4 {
+  border: 4px solid $c-accent;
+
+  .divider {
+    height: 4px;
+
+    &::before {
+      border: 4px solid $c-accent;
+    }
+  }
+}
+
+.price__final {
+  flex: 13%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding: 30px 20px;
+  
+  .cta {
+    font-size: 16px;
+  }
+}
+
+.price__final-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 120%;
+  margin: 10px 0 20px;
+
+  span {
+    flex: 50%;
+    
+    b {
+      display: block;
+      font-size: 26px;
+      margin: 0 0 10px;
+    }
+  }
+}
+
+.price__info {
+  font-size: $s-normal;
+  line-height: 120%;
+}
+
+/*==================================================================================
+  Modal set
+==================================================================================*/
+.modal__content {
+  h4 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 140%;
+    margin: 20px 0 40px;
+  }
+
+  .cta {
+    margin: 30px auto;
+  }
+
+  .ajax-loader {
+    position: absolute;
+    left: 0;
+    top: 20px;
+  }
+}
+
+.inp {
+  display: block;
+  width: 100%;
+  font-family: $f-regular;
+  border: 1px solid $c-background;
+  padding: 15px;
+  margin: 20px 0 0;
+  font-weight: $regular;
+  font-size: 16px;
+  border-radius: $r-radius;
+  outline: none;
+  transition: all ease-out $transition_fast;
+
+  &.wpcf7-textarea {
+    resize: vertical;
+    height: 160px;
+  }
+}
+
+.wpcf7-not-valid {
+  border: 1px solid #ff8888;
+}
+
+.wpcf7-response-output {
+  border-radius: $r-radius;
+  margin: 20px 0 0 !important;
 }

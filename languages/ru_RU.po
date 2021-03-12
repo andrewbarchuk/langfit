@@ -2,48 +2,53 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: ieverly 1.0.1\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/gloss\n"
+"Project-Id-Version: ieverly 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/langfit\n"
 "Last-Translator: \n"
 "Language-Team: Русский\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-02-24T00:07:01+00:00\n"
-"PO-Revision-Date: 2021-02-24 00:25+0000\n"
+"POT-Creation-Date: 2021-03-10T22:19:00+00:00\n"
+"PO-Revision-Date: 2021-03-10 22:20+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: ieverly\n"
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
 "n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
-"X-Loco-Version: 2.5.0; wp-5.6.2"
+"X-Loco-Version: 2.5.1; wp-5.7"
 
-#: page-portfolio.php:36 template-parts/home/home-portfolio.php:26
-msgid "All"
-msgstr "Все"
+#. Theme Name of the theme
+msgid "ieverly"
+msgstr ""
 
-#: footer.php:35
-msgid "All rights reserved."
+#. Theme URI of the theme
+msgid "http://andrewbarchuk.com"
+msgstr ""
+
+#. Description of the theme
+msgid "Custom theme"
 msgstr ""
 
 #. Author of the theme
 msgid "Andrew Barchuk"
 msgstr ""
 
-#: inc/meta-box/portfolio.php:29
-msgid "Case images"
+#. Author URI of the theme
+msgid "http://andrewbarchuk.com/ieverly"
 msgstr ""
 
-#: inc/meta-box/portfolio.php:24
-msgid "Check if show on home page"
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: inc/meta-box/home.php:45
-msgid "Check photos for slider"
+#: 404.php:24
+msgid "It looks like nothing was found at this location."
 msgstr ""
 
-#: comments.php:68
-msgid "Comments are closed."
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
@@ -55,89 +60,242 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#. Description of the theme
-msgid "Custom theme"
+#: comments.php:68
+msgid "Comments are closed."
 msgstr ""
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:39
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
-
-#: inc/meta-box/home.php:39
-msgid "Enter description"
-msgstr ""
-
-#: inc/meta-box/home.php:27
-msgid "Enter name"
-msgstr ""
-
-#: inc/meta-box/home.php:33
-msgid "Enter slogan"
-msgstr ""
-
-#: inc/meta-box/home.php:63 inc/meta-box/home.php:69 inc/meta-box/home.php:75
-msgid "Enter text"
-msgstr ""
-
-#: inc/meta-box/home.php:51
-msgid "Enter title"
-msgstr ""
-
-#: functions.php:53
+#: functions.php:54
 msgid "Header menu"
 msgstr ""
 
-#: inc/meta-box/home.php:44
-msgid "Hero slider"
-msgstr "Главный слайдер"
-
-#: inc/meta-box/home.php:56
-msgid "History image"
+#: functions.php:55
+msgid "Page menu"
 msgstr ""
 
-#: inc/meta-box/home.php:62
-msgid "History portfolio description"
+#: functions.php:56
+msgid "Info menu"
 msgstr ""
 
-#: inc/meta-box/home.php:50
-msgid "History title"
+#: functions.php:57
+msgid "Social networks"
 msgstr ""
 
 #: inc/meta-box/home.php:13
 msgid "Home settings"
 msgstr ""
 
-#. Theme URI of the theme
-msgid "http://andrewbarchuk.com"
-msgstr ""
-
-#. Author URI of the theme
-msgid "http://andrewbarchuk.com/_s"
-msgstr ""
-
-#. Theme Name of the theme
-msgid "ieverly"
-msgstr ""
-
-#: inc/meta-box/home.php:74 template-parts/home/home-instagram.php:19
-msgid "Instagram"
-msgstr ""
-
-#: 404.php:24
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
-msgstr ""
-
-#: template-parts/content-none.php:44
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+#: inc/meta-box/home.php:25
+msgid "Name"
 msgstr ""
 
 #: inc/meta-box/home.php:26
-msgid "Name"
+msgid "Enter name"
+msgstr ""
+
+#: inc/meta-box/home.php:31
+msgid "Slogan"
+msgstr ""
+
+#: inc/meta-box/home.php:32
+msgid "Enter slogan"
+msgstr ""
+
+#: inc/meta-box/home.php:37
+msgid "Slogan description"
+msgstr ""
+
+#: inc/meta-box/home.php:38
+msgid "Enter description"
+msgstr ""
+
+#: inc/meta-box/home.php:43
+msgid "Hero slider"
+msgstr ""
+
+#: inc/meta-box/home.php:44
+msgid "Check photos for slider"
+msgstr ""
+
+#: inc/meta-box/home.php:49
+msgid "History title"
+msgstr ""
+
+#: inc/meta-box/home.php:50
+msgid "Enter title"
+msgstr ""
+
+#: inc/meta-box/home.php:55
+msgid "History image"
+msgstr ""
+
+#: inc/meta-box/home.php:56
+msgid "Select image"
+msgstr ""
+
+#: inc/meta-box/home.php:61
+msgid "History portfolio description"
+msgstr ""
+
+#: inc/meta-box/home.php:62 inc/meta-box/home.php:68 inc/meta-box/home.php:74
+#: inc/meta-box/reviews.php:36
+msgid "Enter text"
+msgstr ""
+
+#: inc/meta-box/home.php:67
+msgid "Portfolio title"
+msgstr ""
+
+#: inc/meta-box/home.php:73
+msgid "Instagram"
+msgstr ""
+
+#: inc/meta-box/reviews.php:12
+msgid "Reviews settings"
+msgstr ""
+
+#: inc/meta-box/reviews.php:23
+msgid "Show on Schools?"
+msgstr ""
+
+#: inc/meta-box/reviews.php:24
+msgid "Check if show on schools page"
+msgstr ""
+
+#: inc/meta-box/reviews.php:29
+msgid "Show on Teachers?"
+msgstr ""
+
+#: inc/meta-box/reviews.php:30
+msgid "Check if show on teachers page"
+msgstr ""
+
+#: inc/meta-box/reviews.php:35
+msgid "Name description"
+msgstr ""
+
+#: inc/meta-box/reviews.php:41
+msgid "Fb link"
+msgstr ""
+
+#: inc/meta-box/reviews.php:42 inc/meta-box/reviews.php:48
+msgid "Enter link"
+msgstr ""
+
+#: inc/meta-box/reviews.php:47
+msgid "Custom link"
+msgstr ""
+
+#: inc/post-type/reviews.php:12 inc/post-type/reviews.php:13
+msgid "Reviews"
+msgstr ""
+
+#: inc/post-type/reviews.php:14
+msgid "Add New"
+msgstr ""
+
+#: inc/post-type/reviews.php:15
+msgid "Add New case"
+msgstr ""
+
+#: inc/post-type/reviews.php:16
+msgid "Edit case"
+msgstr ""
+
+#: inc/post-type/reviews.php:17
+msgid "New case"
+msgstr ""
+
+#: inc/post-type/reviews.php:18
+msgid "View case"
+msgstr ""
+
+#: inc/post-type/reviews.php:19
+msgid "Search case"
+msgstr ""
+
+#: inc/post-type/reviews.php:20
+msgid "No case found"
+msgstr ""
+
+#: inc/post-type/reviews.php:21
+msgid "No case found in Trash"
+msgstr ""
+
+#: inc/post-type/reviews.php:43 inc/post-type/reviews.php:44
+msgid "Reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:45
+msgid "Search reviews tags"
+msgstr ""
+
+#: inc/post-type/reviews.php:46
+msgid "Popular reviews tags"
+msgstr ""
+
+#: inc/post-type/reviews.php:47
+msgid "All reviews tags"
+msgstr ""
+
+#: inc/post-type/reviews.php:48
+msgid "Parent reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:49
+msgid "Parent reviews tag:"
+msgstr ""
+
+#: inc/post-type/reviews.php:50
+msgid "Edit reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:51
+msgid "Update reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:52
+msgid "Add New reviews tag"
+msgstr ""
+
+#: inc/post-type/reviews.php:53
+msgid "New reviews tag Name"
+msgstr ""
+
+#: inc/post-type/reviews.php:54
+msgid "Separate reviews tags with commas"
+msgstr ""
+
+#: inc/post-type/reviews.php:55
+msgid "Add or remove reviews tags"
+msgstr ""
+
+#: inc/post-type/reviews.php:56
+msgid "Choose from the most used reviews tags"
+msgstr ""
+
+#: inc/post-type/reviews.php:57
+msgid "Reviews tags"
+msgstr ""
+
+#: inc/sidebars.php:11
+msgid "Language switcher"
+msgstr ""
+
+#: inc/template-functions.php:38
+msgid "Read post"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:25
+msgid "Preview Post"
 msgstr ""
 
 #: single.php:26
@@ -148,74 +306,11 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
-#. translators: 1: title.
-#: comments.php:35
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
-
-#: 404.php:20
-msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
-
-#: template-parts/content-page.php:25
-msgid "Pages:"
-msgstr ""
-
-#. Template Name of the theme
-#: template-parts/home/home-history.php:35
-msgid "Portfolio"
-msgstr "Портфолио"
-
-#: inc/meta-box/portfolio.php:12
-msgid "Portfolio settings"
-msgstr "Настройки портфолио"
-
-#: inc/meta-box/home.php:68
-msgid "Portfolio title"
-msgstr ""
-
-#: single.php:25
-msgid "Preview Post"
-msgstr ""
-
-#: inc/template-functions.php:38
-msgid "Read post"
-msgstr ""
-
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-
-#. translators: %s: search query.
-#: search.php:23
-msgid "Search Results for: %s"
-msgstr ""
-
-#: inc/meta-box/home.php:57
-msgid "Select image"
-msgstr "Выберите картинку"
-
-#: inc/meta-box/portfolio.php:30
-msgid "Select images"
-msgstr "Выберити картинки"
-
-#: inc/meta-box/portfolio.php:23
-msgid "Show on home?"
-msgstr ""
-
-#: inc/meta-box/home.php:32
-msgid "Slogan"
-msgstr "Слоган"
-
-#: inc/meta-box/home.php:38
-msgid "Slogan description"
-msgstr ""
-
-#: functions.php:54
-msgid "Social networks"
-msgstr "Соц сети"
 
 #: template-parts/content-none.php:37
 msgid ""
@@ -223,6 +318,37 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: template-parts/home/home-portfolio.php:71
-msgid "View all cases"
-msgstr "Смотреть все работы"
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/home/home-hero.php:17
+msgid "hero title"
+msgstr ""
+
+#: template-parts/home/home-hero.php:19
+msgid "hero description 1"
+msgstr ""
+
+#: template-parts/home/home-hero.php:20
+msgid "hero description 2"
+msgstr ""
+
+#: template-parts/home/home-hero.php:21
+msgid "hero description 3"
+msgstr ""
+
+#: template-parts/home/home-hero.php:23
+msgid "Try for free"
+msgstr "Попробовать бесплатно"

@@ -1,0 +1,126 @@
+/**
+ * Modal window
+ */
+.modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal__container {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    background-color: $c-white;
+    cursor: default;
+}
+
+.modal__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: $c-accent;
+    color: $c-white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    transition: background ease-out $transition_fast;
+
+    &:hover {
+        background: $c-black;
+    }
+}
+
+.modal__header .modal__close:before {
+    content: "\2715";
+}
+
+.modal__content {
+    padding: 40px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+/**************************\
+Animation Style
+\**************************/
+@keyframes mmfadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes mmfadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes mmslideIn {
+    from {
+        transform: translateY(15%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes mmslideOut {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-10%);
+    }
+}
+
+.micromodal-slide {
+    display: none;
+}
+
+.micromodal-slide.is-open {
+    display: block;
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__overlay {
+    animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__container {
+    animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__overlay {
+    animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__container {
+    animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
+}
+
+// .micromodal-slide .modal__container,
+// .micromodal-slide .modal__overlay {
+//     will-change: transform;
+// }
