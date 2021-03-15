@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: Schools
+Template Name: Teachers
 */
 
 /**
- * 
- * The template for displaying schools
+ *  
+ * The template for displaying teachers
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages

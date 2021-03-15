@@ -9,17 +9,16 @@
  */
 ?>
 
-<section class="hero home-hero content">
-	<img class="bg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/hero__bg.png" alt="hero">
+<section class="teachers-hero content">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
 				<div class="hero__text">
-					<h1><?php esc_html_e( 'hero title', 'ieverly' ); ?></h1>
+					<h1><?php esc_html_e( 'teachers hero title', 'ieverly' ); ?></h1>
 					<ul class="hero__text-benefits">
-						<li><?php esc_html_e( 'hero description 1', 'ieverly' ); ?></li>
-						<li><?php esc_html_e( 'hero description 2', 'ieverly' ); ?></li>
-						<li><?php esc_html_e( 'hero description 3', 'ieverly' ); ?></li>
+						<li><?php esc_html_e( 'teachers hero description 1', 'ieverly' ); ?></li>
+						<li><?php esc_html_e( 'teachers hero description 2', 'ieverly' ); ?></li>
+						<li><?php esc_html_e( 'teachers hero description 3', 'ieverly' ); ?></li>
 					</ul>
 					<button data-micromodal-trigger="cta" data-from="hero" class="cta cta__black"><?php esc_html_e( 'Try for free', 'ieverly' ); ?></button>
 					<ul class="hero__text-lang">
@@ -34,7 +33,7 @@
 
 			<div class="col-lg-5">
 				<div class="hero__image">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/home-hero.svg" alt="hero">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/teachers-hero.svg" alt="hero">
 				</div>
 			</div>
 		</div>

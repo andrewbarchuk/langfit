@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="schools-hero">
+<section class="schools-hero content">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
@@ -33,7 +33,7 @@
 
 			<div class="col-lg-5">
 				<div class="hero__image">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/home-hero.svg" alt="hero">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/schools-hero.svg" alt="hero">
 				</div>
 			</div>
 		</div>

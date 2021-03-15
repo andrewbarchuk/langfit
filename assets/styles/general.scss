@@ -52,6 +52,7 @@ body {
 
 .content {
   padding: $p-general 0;
+  position: relative;
 }
 
 .content-top {
@@ -84,6 +85,10 @@ button {
   h4 {
     font-size: 24px;
   }
+}
+
+img {
+  max-width: 100%;
 }
 
 /*==================================================================================
@@ -717,4 +722,91 @@ button {
 .wpcf7-response-output {
   border-radius: $r-radius;
   margin: 20px 0 0 !important;
+}
+
+/*==================================================================================
+  Schools offer
+==================================================================================*/
+.schools-page, .teachers-page {
+  position: relative;
+}
+
+.schools-offer__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 50px 0 0;
+}
+
+.schools-offer__box {
+  display: flex;
+  flex-direction: column;
+  background: $c-white;
+  padding: 30px;
+  border-radius: 20px;
+  flex: 0 1 30%;
+
+  img {
+    width: 60px;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.schools-branding__box {
+  text-align: center;
+  margin: 70px 0 0;
+}
+
+.schools-video img {
+  border-bottom: 8px solid $c-white;
+}
+
+/*==================================================================================
+  Schools content
+==================================================================================*/
+.schools-questions {
+  padding: 0 0 8vw;
+
+  .title {
+    margin: 0 0 20px;
+  }
+}
+
+.wp-block-pb-accordion-item {
+  margin: 30px 0 0;
+  background: $c-white;
+  padding: 20px;
+  border: 1px solid $c-text;
+
+  h2 {
+    font-size: 18px;
+    outline: none;
+    font-weight: $regular;
+  }
+}
+
+.c-accordion__title:after {
+  color: $c-text;
+  font-size: 30px;
+}
+
+.c-accordion__content {
+  padding: 30px;
+}
+
+/*==================================================================================
+  Page teachers
+==================================================================================*/
+.teachers-parthners {
+  padding: 6vw 0;
+  position: relative;
 }
