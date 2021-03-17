@@ -9,7 +9,7 @@
 
 if (!defined('IEVERLY_VERSION')) {
 	// Replace the version number of the theme on each release.
-	define('IEVERLY_VERSION', '1.0.8');
+	define('IEVERLY_VERSION', '1.1.9');
 }
 
 if (!function_exists('ieverly_setup')) :
@@ -216,8 +216,7 @@ require get_template_directory() . '/inc/svg.php';
 /**
  * Add meta boxes support.
  */
-// home meta
-require get_template_directory() . '/inc/meta-box/home.php';
+require get_template_directory() . '/inc/meta-box/pages.php';
 
 /**
  * Reviews

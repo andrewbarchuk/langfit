@@ -9,5 +9,5 @@
 ?>
 
 <div class="not-found">
-    <h4>Not found</h4>
+    <h4><?php esc_html_e('Nothing Found', 'ieverly'); ?></h4>
 </div>

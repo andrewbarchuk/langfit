@@ -55,13 +55,13 @@
 		</div>
 
 		<div class="row footer__terms">
-			<div class="col-md-6">
+			<div class="col-6">
 				<div class="site__footer-copyright">
 					<span class="name">© <b><?php echo get_bloginfo('name'); ?></b>, <?php echo date('Y'); ?></span>
 				</div>
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-6">
 				<nav class="site__footer-menu footer__social-menu">
 					<?php
 					wp_nav_menu(

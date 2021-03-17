@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="home-price content">
+<section class="home-price content" id="prices">
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
@@ -28,7 +28,7 @@
                     <div class="price__box price__free">
                         <div class="price__box-num">0<span>₴</span></div>
                         <div class="price__box-description"><?php esc_html_e('first 3  months', 'ieverly'); ?></div>
-                        <button data-micromodal-trigger="cta" data-from="start (home)" class="cta cta__black"><?php esc_html_e('Start', 'ieverly'); ?></button>
+                        <button id="signup_popup_open__prices_start_for_free" data-submit="signup_submit__prices_start_for_free" data-close="signup_popup_close__prices_start_for_free" data-from="Schools prices - start for free" data-micromodal-trigger="cta" class="cta cta__black"><?php esc_html_e('Start', 'ieverly'); ?></button>
                     </div>
 
                     <div class="price__box price__step step__1">
@@ -68,7 +68,7 @@
                             <span><b><?php esc_html_e('1000+', 'ieverly'); ?></b> <?php esc_html_e('Lessons per month', 'ieverly'); ?></span>
                             <div class="divider"></div>
                         </div>
-                        <button data-micromodal-trigger="cta" data-from="price contact us (home) responsive" class="cta cta__blue"><?php esc_html_e('Contact us', 'ieverly'); ?></button>
+                        <button id="signup_popup_open__prices_contact_us" data-submit="signup_submit__prices_contact_us" data-close="signup_popup_close__prices_contact_us" data-from="Schools prices - contact us" data-micromodal-trigger="cta" class="cta cta__blue"><?php esc_html_e('Contact us', 'ieverly'); ?></button>
                     </div>
                 </div>
             </div>

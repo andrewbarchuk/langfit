@@ -11,7 +11,7 @@
 
 <div class="modal micromodal-slide" id="cta" aria-hidden="true">
     <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="cta-title">
             <header class="modal__header">
                 <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
             </header>

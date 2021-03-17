@@ -20,7 +20,7 @@
 
         <div class="row">
             <div class="col-12 cta__center">
-                <button data-micromodal-trigger="cta" data-from="cooperation" class="cta cta__black"><?php esc_html_e('Leave a request for cooperation', 'ieverly'); ?></button>
+                <button id="signup_popup_open__join_the_school" data-submit="signup_submit__join_the_school" data-close="signup_popup_close__join_the_school" data-from="Teachers join the school" data-micromodal-trigger="cta" class="cta cta__black"><?php esc_html_e('Leave a request for cooperation', 'ieverly'); ?></button>
             </div>
         </div>
     </div>

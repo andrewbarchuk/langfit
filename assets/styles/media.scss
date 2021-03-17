@@ -3,11 +3,163 @@
  */
 
 
-@media (min-width: 1370px) {
+@media (max-width: 1370px) {
+    img {
+        max-width: 100%;
+    }
+
+    .hero__text {
+        h1 {
+            font-size: 48px;
+            line-height: 120%;
+        }
+    }
+
+    .hero__text-benefits {
+        font-size: 18px;
+    }
+
+    .cta {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .home-offer {
+        .container {
+            padding: 80px 60px;
+        }
+    }
+
+    .offer__box {
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .home-methodology {
+        h3 {
+            font-size: 32px;
+        }
+    }
+
+    .about__box {
+        h4 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .benefits__box {
+        p {
+            b {
+                font-size: 30px;
+            }
+
+            span {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .reviews__box-content {
+        font-size: 16px;
+    }
+
+    .howstart__box {
+        margin: 80px 0;
+        img {
+            width: 80px;
+        }
+
+        span {
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 18px;
+            line-height: 130%;
+        }
+    }
+
+    .price__description {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .price__step-num {
+        font-size: 24px;
+    }
+
+    .price__step-count {
+        font-size: 16px;
+    }
+
+    .site__footer-menu {
+        h4 {
+            line-height: 130%;
+        }
+    }
+
+    footer {
+        .container {
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+    .schools-offer__box {
+        h4 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .teachers-offer__list {
+        padding: 0;
+    }
+
+    .video__box {
+        max-width: 70vw;
+    }
+
+    .teachers-parthners {
+        h4 {
+            font-size: 32px;
+        }
+    }
+
+    .site__header-menu ul li a {
+        font-size: 22px;
+    }
+
+    .site__header-branding {
+        img {
+            max-width: 130px;
+        }
+    }
+
+    
 
 }
 
 @media (max-width: 992px) {
+    .content {
+        padding: 60px 0;
+    }
+
     .site__header {
         background: $c-white;
     }
@@ -70,6 +222,169 @@
         }
     }
 
+    .hero__text {
+        h1 {
+            text-align: center;
+        }
+
+        .cta {
+            margin: 50px auto;
+        }
+    }
+
+    .hpbg {
+        display: block !important;
+        border-radius: 20px;
+    }
+
+    .hero {
+        .bg {
+            display: none;
+        }
+    }
+
+    .hero__image {
+        display: none;
+    }
+
+    .home-offer {
+        .container {
+            background: none;
+            border-radius: 0;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+    }
+
+    .offer__box {
+        background: $c-white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 30px 0 0;
+
+        p {
+            margin: 0 0 15px;
+        }
+    }
+
+    .home-video {
+        display: none;
+    }
+
+    .home-methodology {
+        .bg {
+            display: none;
+        }
+    }
+
+    .home-about {
+        .container {
+            .row:nth-child(2) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    .about__box {
+        img {
+            margin: 20px 0 0;
+        }
+    }
+
+    .home-benefits {
+        .bg {
+            border-radius: 20px;
+        }
+    }
+
+    .benefits__box {
+        justify-content: flex-start;
+        margin: 20px 0;
+
+        img {
+            max-width: 80px;
+        }
+    }
+
+    .glide__arrows {
+        margin: 15px 0 0;
+    }
+    
+    .howstart__box {
+        margin: 60px 0 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        img {
+            margin: 0 20px 0 0;
+        }
+
+        div {
+            margin: 0;
+        }
+    }
+
+    .price__description {
+        font-size: 16px;
+        margin: 15px 0 0;
+    }
+
+    .price__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .price__final {
+        align-self: center;
+    }
+
+    .price__box {
+        width: 100%;
+        max-width: 220px;
+        margin: 10px 0;
+    }
+
+    .lang-end {
+        justify-content: flex-start;
+        margin: 30px 0 0;
+    }
+
+    .footer__terms {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .schools-offer__box {
+        flex: 0 1 45%;
+        margin: 10px;
+    }
+
+    .cta__center {
+        margin: 40px auto 0;
+    }
+
+    .appscreen {
+        display: block;
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 0 10px;
+    }
+
+    .teachers-parthners {
+        h4 {
+            font-size: 24px;
+            margin: 0;
+            line-height: 140%;
+        }
+    }
+
+    .textlink {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -77,8 +392,93 @@
 }
 
 @media (max-width: 576px) {
-    .modal__close {
-        position: fixed;
+    .hero__text {
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+    .hero__text-lang {
+        li {
+            margin: 0 15px 0 0;
+        }
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .home-methodology {
+        h3 {
+            font-size: 24px;
+            margin: 0 0 30px;
+        }
+    }
+
+    .about__box-buttons {
+        flex-direction: column;
+        margin: 15px 0 0;
+    }
+
+    .about__box {
+        margin: 80px 0;
+    }
+
+    .benefits__box {
+        padding: 0 20px;
+
+        img {
+            width: 60px;
+            margin: 0 20px 0 0;
+        }
+    }
+
+    .reviews__box {
+        margin: 20px 0 0;
+    }
+
+    .reviews__box {
+        h4 {
+            font-size: 22px;
+        }
+    }
+
+    .reviews__box-description {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .schools-offer__box {
+        flex: 0 1 100%;
+        margin: 0 0 15px;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .modal__container {
+        width: 90%;
+    }
+
+    .modal__content {
+        padding: 20px;
+    }
+
+    .teachers-offer__list {
+        flex-direction: column;
+    }
+
+    .wp-block-pb-accordion-item h2 {
+        font-size: 18px;
+    }
+
+    .cta {
+        width: 100%;
     }
    
 }

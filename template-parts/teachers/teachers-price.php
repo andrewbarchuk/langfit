@@ -1,7 +1,6 @@
 <?php
-
 /**
- * Template part for displaying home how start
+ * Template part for displaying teachers price
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -9,15 +8,15 @@
  */
 ?>
 
-<section class="home-price content">
+<section class="teachers-price content" id="prices">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
-                <h3 class="title"><?php esc_html_e('Price title', 'ieverly'); ?></h3>
+            <div class="col-lg-8">
+                <h3 class="title"><?php esc_html_e('teachers price title', 'ieverly'); ?></h3>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="price__description">
-                    <?php esc_html_e('Price description', 'ieverly'); ?>
+                    <?php esc_html_e('teachers price description', 'ieverly'); ?>
                 </div>
             </div>
         </div>
@@ -28,15 +27,15 @@
                     <div class="price__box price__free">
                         <div class="price__box-num">0<span>₴</span></div>
                         <div class="price__box-description"><?php esc_html_e('first 3  months', 'ieverly'); ?></div>
-                        <button data-micromodal-trigger="cta" data-from="start (home)" class="cta cta__black"><?php esc_html_e('Start', 'ieverly'); ?></button>
+                        <button id="signup_popup_open__prices_start_for_free" data-submit="signup_submit__prices_start_for_free" data-close="signup_popup_close__prices_start_for_free" data-from="Teachers prices - start for free" data-micromodal-trigger="cta" class="cta cta__black"><?php esc_html_e('Start', 'ieverly'); ?></button>
                     </div>
 
                     <div class="price__box price__step step__1">
-                        <div class="price__step-num"><?php esc_html_e('price step 1', 'ieverly'); ?></div>
+                        <div class="price__step-num"><?php esc_html_e('teachers step 1', 'ieverly'); ?></div>
                         <span><?php esc_html_e('For a lesson', 'ieverly'); ?></span>
                         <div class="divider"></div>
-                        <div class="price__step-count"><?php esc_html_e('price count 1', 'ieverly'); ?></div>
-                        <span><?php esc_html_e('Lessons per month', 'ieverly'); ?></span>
+                        <span><?php esc_html_e('start at', 'ieverly'); ?></span>
+                        <div class="price__step-count"><?php esc_html_e('four month', 'ieverly'); ?></div>
                     </div>
                 </div>
             </div>

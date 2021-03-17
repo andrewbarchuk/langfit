@@ -6,6 +6,11 @@
     position: relative;
     background: $c-accent;
     overflow: hidden;
+
+    .container {
+        position: relative;
+        z-index: 3;
+    }
 }
 
 .footer__contact {

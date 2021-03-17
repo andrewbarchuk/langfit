@@ -44,9 +44,15 @@ $meta_reviews = array(
 		'type'  => 'text',
 	),
 	array(  
-		'label' => __( 'Custom link', 'ieverly' ),
-		'desc'  => __( 'Enter link', 'ieverly' ),
+		'label' => __( 'Custom link url', 'ieverly' ),
+		'desc'  => __( 'Enter link url', 'ieverly' ),
 		'id'    => 'reviews_link',
+		'type'  => 'text',
+	),
+	array(  
+		'label' => __( 'Custom link title', 'ieverly' ),
+		'desc'  => __( 'Enter link title', 'ieverly' ),
+		'id'    => 'reviews_link_title',
 		'type'  => 'text',
 	),
 );

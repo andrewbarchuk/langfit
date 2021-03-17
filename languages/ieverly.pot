@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-03-10T22:49:01+00:00\n"
+"POT-Creation-Date: 2021-03-17T12:42:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: ieverly\n"
@@ -61,6 +61,7 @@ msgstr ""
 
 #: footer.php:20
 #: template-parts/home/home-price.php:71
+#: template-parts/schools/schools-price.php:71
 msgid "Contact us"
 msgstr ""
 
@@ -88,75 +89,40 @@ msgstr ""
 msgid "Social networks"
 msgstr ""
 
-#: inc/meta-box/home.php:13
-msgid "Home settings"
+#: inc/meta-box/pages.php:14
+msgid "Settings"
 msgstr ""
 
-#: inc/meta-box/home.php:25
-msgid "Name"
+#: inc/meta-box/pages.php:26
+msgid "Link 1"
 msgstr ""
 
-#: inc/meta-box/home.php:26
-msgid "Enter name"
+#: inc/meta-box/pages.php:27
+msgid "Enter link 1"
 msgstr ""
 
-#: inc/meta-box/home.php:31
-msgid "Slogan"
+#: inc/meta-box/pages.php:32
+msgid "Link 2"
 msgstr ""
 
-#: inc/meta-box/home.php:32
-msgid "Enter slogan"
+#: inc/meta-box/pages.php:33
+msgid "Enter link 2"
 msgstr ""
 
-#: inc/meta-box/home.php:37
-msgid "Slogan description"
+#: inc/meta-box/pages.php:38
+msgid "Link 3"
 msgstr ""
 
-#: inc/meta-box/home.php:38
-msgid "Enter description"
+#: inc/meta-box/pages.php:39
+msgid "Enter link 3"
 msgstr ""
 
-#: inc/meta-box/home.php:43
-msgid "Hero slider"
+#: inc/meta-box/pages.php:44
+msgid "Link 4"
 msgstr ""
 
-#: inc/meta-box/home.php:44
-msgid "Check photos for slider"
-msgstr ""
-
-#: inc/meta-box/home.php:49
-msgid "History title"
-msgstr ""
-
-#: inc/meta-box/home.php:50
-msgid "Enter title"
-msgstr ""
-
-#: inc/meta-box/home.php:55
-msgid "History image"
-msgstr ""
-
-#: inc/meta-box/home.php:56
-msgid "Select image"
-msgstr ""
-
-#: inc/meta-box/home.php:61
-msgid "History portfolio description"
-msgstr ""
-
-#: inc/meta-box/home.php:62
-#: inc/meta-box/home.php:68
-#: inc/meta-box/home.php:74
-#: inc/meta-box/reviews.php:36
-msgid "Enter text"
-msgstr ""
-
-#: inc/meta-box/home.php:67
-msgid "Portfolio title"
-msgstr ""
-
-#: inc/meta-box/home.php:73
-msgid "Instagram"
+#: inc/meta-box/pages.php:45
+msgid "Enter link 4"
 msgstr ""
 
 #: inc/meta-box/reviews.php:12
@@ -183,17 +149,32 @@ msgstr ""
 msgid "Name description"
 msgstr ""
 
+#: inc/meta-box/reviews.php:36
+msgid "Enter text"
+msgstr ""
+
 #: inc/meta-box/reviews.php:41
 msgid "Fb link"
 msgstr ""
 
 #: inc/meta-box/reviews.php:42
-#: inc/meta-box/reviews.php:48
 msgid "Enter link"
 msgstr ""
 
 #: inc/meta-box/reviews.php:47
-msgid "Custom link"
+msgid "Custom link url"
+msgstr ""
+
+#: inc/meta-box/reviews.php:48
+msgid "Enter link url"
+msgstr ""
+
+#: inc/meta-box/reviews.php:53
+msgid "Custom link title"
+msgstr ""
+
+#: inc/meta-box/reviews.php:54
+msgid "Enter link title"
 msgstr ""
 
 #: inc/post-type/reviews.php:12
@@ -233,63 +214,6 @@ msgstr ""
 msgid "No case found in Trash"
 msgstr ""
 
-#: inc/post-type/reviews.php:43
-#: inc/post-type/reviews.php:44
-msgid "Reviews tag"
-msgstr ""
-
-#: inc/post-type/reviews.php:45
-msgid "Search reviews tags"
-msgstr ""
-
-#: inc/post-type/reviews.php:46
-msgid "Popular reviews tags"
-msgstr ""
-
-#: inc/post-type/reviews.php:47
-msgid "All reviews tags"
-msgstr ""
-
-#: inc/post-type/reviews.php:48
-msgid "Parent reviews tag"
-msgstr ""
-
-#: inc/post-type/reviews.php:49
-msgid "Parent reviews tag:"
-msgstr ""
-
-#: inc/post-type/reviews.php:50
-msgid "Edit reviews tag"
-msgstr ""
-
-#: inc/post-type/reviews.php:51
-msgid "Update reviews tag"
-msgstr ""
-
-#: inc/post-type/reviews.php:52
-msgid "Add New reviews tag"
-msgstr ""
-
-#: inc/post-type/reviews.php:53
-msgid "New reviews tag Name"
-msgstr ""
-
-#: inc/post-type/reviews.php:54
-msgid "Separate reviews tags with commas"
-msgstr ""
-
-#: inc/post-type/reviews.php:55
-msgid "Add or remove reviews tags"
-msgstr ""
-
-#: inc/post-type/reviews.php:56
-msgid "Choose from the most used reviews tags"
-msgstr ""
-
-#: inc/post-type/reviews.php:57
-msgid "Reviews tags"
-msgstr ""
-
 #: inc/sidebars.php:11
 msgid "Language switcher"
 msgstr ""
@@ -314,8 +238,20 @@ msgstr ""
 msgid "E-mail"
 msgstr ""
 
+#: inc/template-tags.php:142
+msgid "Video"
+msgstr ""
+
 #. Template Name of the theme
 msgid "Home"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Schools"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Teachers"
 msgstr ""
 
 #. translators: %s: search query.
@@ -332,6 +268,7 @@ msgid "Next Post"
 msgstr ""
 
 #: template-parts/content-none.php:14
+#: template-parts/not-found.php:12
 msgid "Nothing Found"
 msgstr ""
 
@@ -357,155 +294,190 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: template-parts/home/home-about.php:16
+#: template-parts/home/home-about.php:17
 msgid "methodology title 1"
 msgstr ""
 
-#: template-parts/home/home-about.php:17
+#: template-parts/home/home-about.php:18
 msgid "methodology description 1"
 msgstr ""
 
-#: template-parts/home/home-about.php:29
+#: template-parts/home/home-about.php:30
 msgid "methodology title 2"
 msgstr ""
 
-#: template-parts/home/home-about.php:30
+#: template-parts/home/home-about.php:31
 msgid "methodology description 2"
 msgstr ""
 
-#: template-parts/home/home-about.php:36
+#: template-parts/home/home-about.php:37
 msgid "methodology title 3"
 msgstr ""
 
-#: template-parts/home/home-about.php:37
+#: template-parts/home/home-about.php:38
 msgid "methodology description 3"
 msgstr ""
 
-#: template-parts/home/home-about.php:47
-#: template-parts/home/home-offer.php:25
-#: template-parts/home/home-offer.php:34
-#: template-parts/home/home-offer.php:43
+#: template-parts/home/home-about.php:48
+#: template-parts/home/home-offer.php:30
+#: template-parts/home/home-offer.php:39
+#: template-parts/home/home-offer.php:48
+#: template-parts/schools/schools-about.php:48
+#: template-parts/teachers/teachers-about.php:48
 msgid "Learn more"
 msgstr ""
 
-#: template-parts/home/home-about.php:48
-#: template-parts/home/home-hero.php:23
+#: template-parts/home/home-about.php:49
+#: template-parts/home/home-hero.php:25
+#: template-parts/schools/schools-about.php:49
+#: template-parts/schools/schools-hero.php:24
+#: template-parts/teachers/teachers-about.php:49
+#: template-parts/teachers/teachers-hero.php:24
 msgid "Try for free"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:20
+#: template-parts/schools/schools-benefits.php:20
 msgid "benefits title 1"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:21
+#: template-parts/schools/schools-benefits.php:21
 msgid "benefits description 1"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:30
+#: template-parts/schools/schools-benefits.php:30
 msgid "benefits title 2"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:31
+#: template-parts/schools/schools-benefits.php:31
 msgid "benefits description 2"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:40
+#: template-parts/schools/schools-benefits.php:40
 msgid "benefits title 3"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:41
+#: template-parts/schools/schools-benefits.php:41
 msgid "benefits description 3"
 msgstr ""
 
-#: template-parts/home/home-hero.php:17
+#: template-parts/home/home-hero.php:18
 msgid "hero title"
 msgstr ""
 
-#: template-parts/home/home-hero.php:19
+#: template-parts/home/home-hero.php:21
 msgid "hero description 1"
 msgstr ""
 
-#: template-parts/home/home-hero.php:20
+#: template-parts/home/home-hero.php:22
 msgid "hero description 2"
 msgstr ""
 
-#: template-parts/home/home-hero.php:21
+#: template-parts/home/home-hero.php:23
 msgid "hero description 3"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:14
+#: template-parts/home/home-howstart.php:15
+#: template-parts/schools/schools-howstart.php:15
+#: template-parts/teachers/teachers-howstart.php:15
 msgid "How to start"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:22
+#: template-parts/home/home-howstart.php:25
+#: template-parts/schools/schools-howstart.php:25
+#: template-parts/teachers/teachers-howstart.php:25
 msgid "how start box title 1"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:29
+#: template-parts/home/home-howstart.php:34
+#: template-parts/schools/schools-howstart.php:34
+#: template-parts/teachers/teachers-howstart.php:34
 msgid "how start box title 2"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:36
+#: template-parts/home/home-howstart.php:43
+#: template-parts/schools/schools-howstart.php:43
+#: template-parts/teachers/teachers-howstart.php:43
 msgid "how start box title 3"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:43
+#: template-parts/home/home-howstart.php:52
+#: template-parts/schools/schools-howstart.php:52
+#: template-parts/teachers/teachers-howstart.php:52
 msgid "how start box title 4"
 msgstr ""
 
-#: template-parts/home/home-howstart.php:50
+#: template-parts/home/home-howstart.php:60
+#: template-parts/schools/schools-howstart.php:60
+#: template-parts/teachers/teachers-howstart.php:60
 msgid "Leave a request"
 msgstr ""
 
 #: template-parts/home/home-metodology.php:16
+#: template-parts/schools/schools-metodology.php:15
+#: template-parts/teachers/teachers-metodology.php:15
 msgid "Methodology"
 msgstr ""
 
-#: template-parts/home/home-offer.php:15
+#: template-parts/home/home-offer.php:19
+#: template-parts/schools/schools-offer.php:15
+#: template-parts/teachers/teachers-offer.php:17
 msgid "We offer"
 msgstr ""
 
-#: template-parts/home/home-offer.php:23
+#: template-parts/home/home-offer.php:27
 msgid "offer title 1"
 msgstr ""
 
-#: template-parts/home/home-offer.php:24
+#: template-parts/home/home-offer.php:28
 msgid "offer description 1"
 msgstr ""
 
-#: template-parts/home/home-offer.php:32
+#: template-parts/home/home-offer.php:37
 msgid "offer title 2"
 msgstr ""
 
-#: template-parts/home/home-offer.php:33
+#: template-parts/home/home-offer.php:38
 msgid "offer description 2"
 msgstr ""
 
-#: template-parts/home/home-offer.php:41
+#: template-parts/home/home-offer.php:46
 msgid "offer title 3"
 msgstr ""
 
-#: template-parts/home/home-offer.php:42
+#: template-parts/home/home-offer.php:47
 msgid "offer description 3"
 msgstr ""
 
 #: template-parts/home/home-price.php:16
+#: template-parts/schools/schools-price.php:16
 msgid "Price title"
 msgstr ""
 
 #: template-parts/home/home-price.php:20
+#: template-parts/schools/schools-price.php:20
 msgid "Price description"
 msgstr ""
 
 #: template-parts/home/home-price.php:30
+#: template-parts/schools/schools-price.php:30
+#: template-parts/teachers/teachers-price.php:29
 msgid "first 3  months"
 msgstr ""
 
 #: template-parts/home/home-price.php:31
+#: template-parts/schools/schools-price.php:31
+#: template-parts/teachers/teachers-price.php:30
 msgid "Start"
 msgstr ""
 
 #: template-parts/home/home-price.php:35
+#: template-parts/schools/schools-price.php:35
 msgid "price step 1"
 msgstr ""
 
@@ -513,10 +485,16 @@ msgstr ""
 #: template-parts/home/home-price.php:44
 #: template-parts/home/home-price.php:52
 #: template-parts/home/home-price.php:60
+#: template-parts/schools/schools-price.php:36
+#: template-parts/schools/schools-price.php:44
+#: template-parts/schools/schools-price.php:52
+#: template-parts/schools/schools-price.php:60
+#: template-parts/teachers/teachers-price.php:35
 msgid "For a lesson"
 msgstr ""
 
 #: template-parts/home/home-price.php:38
+#: template-parts/schools/schools-price.php:38
 msgid "price count 1"
 msgstr ""
 
@@ -525,41 +503,274 @@ msgstr ""
 #: template-parts/home/home-price.php:55
 #: template-parts/home/home-price.php:63
 #: template-parts/home/home-price.php:68
+#: template-parts/schools/schools-price.php:39
+#: template-parts/schools/schools-price.php:47
+#: template-parts/schools/schools-price.php:55
+#: template-parts/schools/schools-price.php:63
+#: template-parts/schools/schools-price.php:68
 msgid "Lessons per month"
 msgstr ""
 
 #: template-parts/home/home-price.php:43
+#: template-parts/schools/schools-price.php:43
 msgid "price step 2"
 msgstr ""
 
 #: template-parts/home/home-price.php:46
+#: template-parts/schools/schools-price.php:46
 msgid "price count 2"
 msgstr ""
 
 #: template-parts/home/home-price.php:51
+#: template-parts/schools/schools-price.php:51
 msgid "price step 3"
 msgstr ""
 
 #: template-parts/home/home-price.php:54
+#: template-parts/schools/schools-price.php:54
 msgid "price count 3"
 msgstr ""
 
 #: template-parts/home/home-price.php:59
+#: template-parts/schools/schools-price.php:59
 msgid "price step 4"
 msgstr ""
 
 #: template-parts/home/home-price.php:62
+#: template-parts/schools/schools-price.php:62
 msgid "price count 4"
 msgstr ""
 
 #: template-parts/home/home-price.php:68
+#: template-parts/schools/schools-price.php:68
 msgid "1000+"
 msgstr ""
 
 #: template-parts/home/home-price.php:79
+#: template-parts/schools/schools-price.php:79
+#: template-parts/teachers/teachers-price.php:46
 msgid "Price info"
 msgstr ""
 
 #: template-parts/home/home-reviews.php:16
+#: template-parts/schools/schools-reviews.php:16
+#: template-parts/teachers/teachers-reviews.php:16
 msgid "Reviews title"
+msgstr ""
+
+#: template-parts/schools/schools-about.php:17
+msgid "schools methodology title 1"
+msgstr ""
+
+#: template-parts/schools/schools-about.php:18
+msgid "schools methodology description 1"
+msgstr ""
+
+#: template-parts/schools/schools-about.php:30
+msgid "schools methodology title 2"
+msgstr ""
+
+#: template-parts/schools/schools-about.php:31
+msgid "schools methodology description 2"
+msgstr ""
+
+#: template-parts/schools/schools-about.php:37
+msgid "schools methodology title 3"
+msgstr ""
+
+#: template-parts/schools/schools-about.php:38
+msgid "schools methodology description 3"
+msgstr ""
+
+#: template-parts/schools/schools-branding.php:16
+msgid "schools branding title"
+msgstr ""
+
+#: template-parts/schools/schools-branding.php:20
+msgid "schools branding description"
+msgstr ""
+
+#: template-parts/schools/schools-hero.php:17
+msgid "schools hero title"
+msgstr ""
+
+#: template-parts/schools/schools-hero.php:20
+msgid "schools hero description 1"
+msgstr ""
+
+#: template-parts/schools/schools-hero.php:21
+msgid "schools hero description 2"
+msgstr ""
+
+#: template-parts/schools/schools-hero.php:22
+msgid "schools hero description 3"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:22
+msgid "schools offer title 1"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:23
+msgid "schools offer description 1"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:27
+msgid "schools offer title 2"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:28
+msgid "schools offer description 2"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:32
+msgid "schools offer title 3"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:33
+msgid "schools offer description 3"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:37
+msgid "schools offer title 4"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:38
+msgid "schools offer description 4"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:42
+msgid "schools offer title 5"
+msgstr ""
+
+#: template-parts/schools/schools-offer.php:43
+msgid "schools offer description 5"
+msgstr ""
+
+#: template-parts/schools/schools-questions.php:15
+#: template-parts/teachers/teachers-questions.php:15
+msgid "Advanced questions"
+msgstr ""
+
+#: template-parts/teachers/teachers-about.php:17
+msgid "teachers methodology title 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-about.php:18
+msgid "teachers methodology description 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-about.php:30
+msgid "teachers methodology title 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-about.php:31
+msgid "teachers methodology description 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-about.php:37
+msgid "teachers methodology title 3"
+msgstr ""
+
+#: template-parts/teachers/teachers-about.php:38
+msgid "teachers methodology description 3"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:20
+msgid "teachers benefits title 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:21
+msgid "teachers benefits description 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:30
+msgid "teachers benefits title 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:31
+msgid "teachers benefits description 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:40
+msgid "teachers benefits title 3"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:41
+msgid "teachers benefits description 3"
+msgstr ""
+
+#: template-parts/teachers/teachers-hero.php:17
+msgid "teachers hero title"
+msgstr ""
+
+#: template-parts/teachers/teachers-hero.php:20
+msgid "teachers hero description 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-hero.php:21
+msgid "teachers hero description 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-hero.php:22
+msgid "teachers hero description 3"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:25
+msgid "teachers offer title 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:26
+msgid "teachers offer description 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:30
+msgid "teachers offer title 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:31
+msgid "teachers offer description 2"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:35
+msgid "teachers offer title 4"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:36
+msgid "teachers offer description 4"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:40
+msgid "teachers offer title 5"
+msgstr ""
+
+#: template-parts/teachers/teachers-offer.php:41
+msgid "teachers offer description 5"
+msgstr ""
+
+#: template-parts/teachers/teachers-parthners.php:17
+msgid "parthners title"
+msgstr ""
+
+#: template-parts/teachers/teachers-parthners.php:23
+msgid "Leave a request for cooperation"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:15
+msgid "teachers price title"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:19
+msgid "teachers price description"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:34
+msgid "teachers step 1"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:37
+msgid "start at"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:38
+msgid "four month"
 msgstr ""

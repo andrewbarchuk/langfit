@@ -25,7 +25,7 @@ get_header();
 <?php
 get_template_part( '/template-parts/teachers/teachers-hero' );
 get_template_part( '/template-parts/teachers/teachers-offer' );
-get_template_part( '/template-parts/teachers/teachers-video' );
+get_template_part( '/template-parts/home/home-video' );
 get_template_part( '/template-parts/teachers/teachers-metodology' );
 ?>
 </div>

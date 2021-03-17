@@ -26,7 +26,7 @@ get_header();
 get_template_part( '/template-parts/schools/schools-hero' );
 get_template_part( '/template-parts/schools/schools-offer' );
 get_template_part( '/template-parts/schools/schools-branding' );
-get_template_part( '/template-parts/schools/schools-video' );
+get_template_part( '/template-parts/home/home-video' );
 get_template_part( '/template-parts/schools/schools-metodology' );
 ?>
 </div>

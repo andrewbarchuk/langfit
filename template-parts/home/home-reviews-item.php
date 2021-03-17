@@ -17,6 +17,7 @@ if (has_post_thumbnail()) {
 $reviews_description = get_post_meta($post->ID, 'reviews_description', true);
 $reviews_fb = get_post_meta($post->ID, 'reviews_fb', true);
 $reviews_link = get_post_meta($post->ID, 'reviews_link', true);
+$reviews_link_title = get_post_meta($post->ID, 'reviews_link_title', true);
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('reviews__box'); ?>>
@@ -40,8 +41,8 @@ $reviews_link = get_post_meta($post->ID, 'reviews_link', true);
                             </svg>
                         </a>
                     <?php } elseif ($reviews_link) { ?>
-                        <a href="<?php esc_html_e($reviews_link); ?>" target="_blank">
-                            <?php ieverly_the_theme_svg('link', 'ui'); ?>
+                        <a class="textlink" href="<?php esc_html_e($reviews_link); ?>" target="_blank">
+                            <?php esc_html_e($reviews_link_title); ?>
                         </a>
                     <?php } ?>
                 </div>

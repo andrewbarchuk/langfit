@@ -87,15 +87,14 @@ button {
   }
 }
 
-img {
-  max-width: 100%;
+img, svg {
+  pointer-events: none;
 }
 
 /*==================================================================================
   Home hero
 ==================================================================================*/
 .home-hero {
-  background: #4FA0FF;
   position: relative;
 
   .row {
@@ -105,8 +104,8 @@ img {
 
 .hero__text {
   h1 {
-    font-size: 80px;
-    line-height: 84px;
+    font-size: 64px;
+    line-height: 68px;
   }
 
   .cta {
@@ -116,10 +115,13 @@ img {
 
 .hero__text-benefits {
   margin: 40px 0 0 30px;
-  font-size: 24px;
+  font-size: 22px;
   list-style: none;
+  line-height: 125%;
 
   li {
+    margin: 10px 0;
+
     &::before {
       content: "\2022";
       color: $c-white;
@@ -139,7 +141,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: $black;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -147,6 +149,7 @@ img {
   padding: 15px 25px;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
   line-height: 120%;
   border-radius: $r-radius;
   transition: all ease-out $transition_fast;
@@ -189,12 +192,12 @@ img {
     background: $c-white;
     border-radius: 20px;
     box-shadow: 0 30px 60px rgba(14, 119, 255, 0.05%);
-    padding: 150px 60px;
+    padding: 100px 60px;
   }
 }
 
 .title {
-  font-size: 68px;
+  font-size: 52px;
   font-weight: $black;
   line-height: 110%;
 }
@@ -263,10 +266,10 @@ img {
 ==================================================================================*/
 .home-methodology {
   position: relative;
-  padding: 6vw 0;
+  padding: 5vw 0;
 
   h3 {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: $black;
     text-align: center;
     line-height: 135%;
@@ -280,6 +283,7 @@ img {
   top: 0;
   left: 0;
   object-fit: cover;
+  pointer-events: none;
 }
 
 /*==================================================================================
@@ -291,18 +295,24 @@ img {
 
 .about__box {
   align-items: center;
-  margin: 8vw 0;
+  margin: 2vw 0 6vw;
+
+  img {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
 
   h4 {
     display: block;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: $black;
     line-height: 115%;
   }
 
   p {
-    font-size: 22px;
-    line-height: 130%;
+    font-size: 18px;
+    line-height: 140%;
     margin: 20px 0 0;
   }
 }
@@ -311,14 +321,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+}
+
+.about__box-buttons {
+  .cta {
+    margin: 15px 15px 0;
+  }
 }
 
 /*==================================================================================
   Home benefits
 ==================================================================================*/
 .home-benefits {
-  padding: 8vw 0;
+  padding: 6vw 0;
   position: relative;
 }
 
@@ -341,7 +356,7 @@ img {
 
     span {
       display: block;
-      font-size: 28px;
+      font-size: 24px;
       line-height: 110%;
     }
   }
@@ -360,7 +375,7 @@ img {
 }
 
 .reviews__box {
-  margin: 80px 0 0;
+  margin: 40px 0 0;
 
   .row {
     align-items: center;
@@ -404,7 +419,7 @@ img {
 }
 
 .reviews__box-content {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 144%;
 }
 
@@ -412,10 +427,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 15px;
   margin: 30px 0 0;
 
   a {
+    path {
+      transition: fill ease-out $transition_fast;
+    }
+
     &:hover {
       svg {
         path {
@@ -440,7 +458,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
 
   button {
     display: flex;
@@ -449,6 +466,7 @@ img {
     background: $c-black;
     border: none;
     padding: 12px 10px;
+    margin: 0 10px;
     transition: background ease-out $transition_fast;
 
     &:hover {
@@ -474,17 +492,22 @@ img {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  margin: 120px 0;
+  margin: 80px 0 60px;
+
+  div {
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+  }
 
   span {
     font-size: 50px;
     font-weight: $black;
     color: $c-accent;
-    margin: 40px 0 0;
   }
 
   h4 {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 
@@ -498,8 +521,8 @@ img {
   Home price
 ==================================================================================*/
 .price__description {
-  font-size: 22px;
-  margin: 30px 0 0;
+  font-size: 18px;
+  margin: 10px 0 0;
   padding: 0 15px 0 0;
 }
 
@@ -563,7 +586,7 @@ img {
 }
 
 .price__step-num {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: $black;
   line-height: 100%;
 }
@@ -735,17 +758,18 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
   margin: 50px 0 0;
 }
 
 .schools-offer__box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background: $c-white;
   padding: 30px;
   border-radius: 20px;
   flex: 0 1 30%;
+  margin: 20px;
 
   img {
     width: 60px;
@@ -788,7 +812,7 @@ img {
   border: 1px solid $c-text;
 
   h2 {
-    font-size: 18px;
+    font-size: 22px;
     outline: none;
     font-weight: $regular;
   }
@@ -801,6 +825,7 @@ img {
 
 .c-accordion__content {
   padding: 30px;
+  font-size: 16px;
 }
 
 /*==================================================================================
@@ -809,4 +834,107 @@ img {
 .teachers-parthners {
   padding: 6vw 0;
   position: relative;
+}
+
+.teachers-offer__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0 0;
+  padding: 0 200px;
+}
+
+.teachers-offer__list .schools-offer__box {
+  flex: 0 1 45%;
+}
+
+.teachers-parthners h4 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 0 40px;
+  line-height: 120%;
+}
+
+.teachers-price .price__list {
+  justify-content: center;
+}
+
+.teachers-price .price__box {
+  max-width: 220px;
+}
+
+.teachers-price .divider::before {
+  display: none;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  
+  .row {
+    align-items: flex-end;
+
+    .col-lg-7 {
+      align-self: center;
+      justify-self: center;
+    }
+  }
+}
+
+.hero__image {
+  img {
+    width: 40vw;
+    max-width: 650px;
+  }
+}
+
+.home-hero {
+  .hero__image {
+    margin: 0 0 -2vw;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+.home-page {
+  position: relative;
+
+  .hpbg {
+    display: none;
+  }
+}
+
+.appscreen {
+  margin: 10px auto;
+  display: none;
+}
+
+.teachers-page, .schools-page {
+  .video__box {
+    img {
+      border-bottom: 6px solid $c-white;
+    }
+  }
+}
+
+.textlink {
+  color: $c-accent;
+  text-decoration: underline;
+  font-size: 18px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.entry-title {
+  font-size: 48px;
+}
+
+.entry-content {
+  font-size: 16px;
+}
+
+.page-template-default .site__header-menu-second {
+  display: none;
 }

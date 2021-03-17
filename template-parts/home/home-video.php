@@ -6,13 +6,14 @@
  *
  * @package ieverly
  */
+$video_id = get_theme_mod('video');
+$video_url = wp_get_attachment_url( $video_id );
 ?>
-
 <section class="home-video">
     <div class="video__box">
         <div class="video__box-tag">
-            <video controls="controls" autoplay loop preload>
-                <source src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/video.mp4">
+            <video autoplay loop preload>
+                <source src="<?php esc_html_e($video_url); ?>">
                 <p class="warning">Your browser does not support HTML5 video.</p>
             </video>
         </div>

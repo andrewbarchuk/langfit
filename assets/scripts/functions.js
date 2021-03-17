@@ -1,5 +1,5 @@
 import Glide from '@glidejs/glide';
-import MicroModal from 'micromodal'; 
+import MicroModal from 'micromodal';
 
 const glide_settings = {
 	/**
@@ -7,8 +7,8 @@ const glide_settings = {
 	 */
 
 	init() {
-		const elem = document.querySelector('.glide');
-		if (elem) {
+		const slider = document.querySelector('.glide');
+		if (slider) {
 			// Glide settings
 			const glide = new Glide('.glide', {
 				type: 'carousel',
@@ -30,11 +30,15 @@ const smooth_scroll = {
 
 		// form name
 		function cta_form() {
-			const cta_value = document.querySelector('.fromform');
+			const cta_value = document.querySelector('.fromform'),
+			      cta_submit = document.querySelector('.wpcf7-submit'),
+				  cta_modal = document.querySelector('.modal__close');
 
 			document.querySelectorAll('.cta[data-from]').forEach((elem, i) => {
 				elem.addEventListener('click', function (event) {
 					cta_value.value = elem.dataset.from;
+					cta_submit.setAttribute('id', elem.dataset.submit);
+					cta_modal.setAttribute('id', elem.dataset.close);
 				});
 			});
 		}

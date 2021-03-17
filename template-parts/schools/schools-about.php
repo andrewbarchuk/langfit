@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template part for displaying schools about
  *
@@ -7,6 +6,8 @@
  *
  * @package ieverly
  */
+
+$link_4 = get_post_meta($post->ID, 'link_4', true);
 ?>
 
 <section class="home-about content">
@@ -44,8 +45,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="about__box-buttons">
-                    <a href="/" class="cta cta__blue"><?php esc_html_e('Learn more', 'ieverly'); ?></a>
-                    <button data-micromodal-trigger="cta" data-from="try for free (home) responsive" class="cta cta__black"><?php esc_html_e('Try for free', 'ieverly'); ?></button>
+                    <a href="<?php esc_html_e($link_4); ?>" class="cta cta__blue"><?php esc_html_e('Learn more', 'ieverly'); ?></a>
+                    <button id="signup_popup_open__about-methodology" data-submit="signup_submit__about-methodology" data-close="signup_popup_close__about-methodology" data-from="Schools about methodology" data-micromodal-trigger="cta" class="cta cta__black"><?php esc_html_e('Try for free', 'ieverly'); ?></button>
                 </div>
             </div>
         </div>
