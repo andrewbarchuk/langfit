@@ -118,7 +118,9 @@ const settings = {
 			// Toogle when click # tag
 			document.querySelectorAll('.site__header-nav-box a[href^="#"]').forEach((pod) => {
 				pod.addEventListener('click', function () {
-					toggled_menu();
+					siteNavigation.classList.remove( 'toggled' );
+					button.setAttribute( 'aria-expanded', 'false' );
+					document.querySelector('body').style.removeProperty('overflow');
 				});
 			});
 		}

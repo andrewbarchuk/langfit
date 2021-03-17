@@ -20,7 +20,7 @@ Template Name: Teachers
 get_header();
 ?>
 <div class="teachers-page">
-<img class="bg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/schools-page__bg.png" alt="schools page">
+<img class="bg hpbg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/schools-page__bg.png" alt="schools page">
 
 <?php
 get_template_part( '/template-parts/teachers/teachers-hero' );
