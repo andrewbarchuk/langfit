@@ -6,10 +6,8 @@
  *
  * @package ieverly
  */
-
-$link = get_post_meta($post->ID, 'author_name', true);
-
 ?>
+
 <section class="schools-offer content">
     <div class="container">
         <div class="row">
@@ -19,8 +17,7 @@ $link = get_post_meta($post->ID, 'author_name', true);
         </div>
 
         <div class="teachers-offer__list">
-            <div class="schools-offer__box"><?php esc_html_e($link); ?>
-
+            <div class="schools-offer__box">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/teachers-offer1.svg" alt="offer 1">
                 <h4><?php esc_html_e( 'teachers offer title 1', 'ieverly' ); ?></h4>
                 <p><?php esc_html_e( 'teachers offer description 1', 'ieverly' ); ?></p>

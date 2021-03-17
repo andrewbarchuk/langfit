@@ -8,7 +8,7 @@
  */
 ?>
 
-<section class="home-methodology">
+<section class="home-methodology" id="methodology">
     <div class="container">
         <div class="row">
             <div class="col-12">

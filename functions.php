@@ -9,7 +9,7 @@
 
 if (!defined('IEVERLY_VERSION')) {
 	// Replace the version number of the theme on each release.
-	define('IEVERLY_VERSION', '1.1.9');
+	define('IEVERLY_VERSION', '1.2.6');
 }
 
 if (!function_exists('ieverly_setup')) :

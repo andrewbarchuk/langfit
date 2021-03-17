@@ -215,7 +215,9 @@ img, svg {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 60px 0 0;
+  justify-content: space-between;
+  height: 100%;
+  padding: 60px 0 0;
 
   h4 {
     font-size: 25px;
@@ -225,7 +227,7 @@ img, svg {
   p {
     font-size: 22px;
     line-height: 144%;
-    margin: 0 0 70px;
+    margin: 0 0 40px;
   }
 }
 
@@ -427,7 +429,7 @@ img, svg {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 30px 0 0;
+  margin: 30px 0 20px;
 
   a {
     path {
@@ -812,7 +814,7 @@ img, svg {
   border: 1px solid $c-text;
 
   h2 {
-    font-size: 22px;
+    font-size: 18px;
     outline: none;
     font-weight: $regular;
   }
@@ -834,6 +836,13 @@ img, svg {
 .teachers-parthners {
   padding: 6vw 0;
   position: relative;
+
+  h4 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 0 40px;
+    line-height: 140%;
+  }
 }
 
 .teachers-offer__list {
@@ -846,13 +855,6 @@ img, svg {
 
 .teachers-offer__list .schools-offer__box {
   flex: 0 1 45%;
-}
-
-.teachers-parthners h4 {
-  text-align: center;
-  font-size: 50px;
-  margin: 0 0 40px;
-  line-height: 120%;
 }
 
 .teachers-price .price__list {
@@ -937,4 +939,25 @@ img, svg {
 
 .page-template-default .site__header-menu-second {
   display: none;
+}
+
+.wpcf7-form {
+  &.sent {
+    p {
+      display: none;
+    }
+
+    h4 {
+      display: none;
+    }
+
+    .wpcf7-response-output {
+      text-align: center;
+      font-size: 18px;
+      padding: 15px;
+      background: none;
+      color: $c-accent;
+      border: none;
+    }
+  }
 }

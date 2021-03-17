@@ -1,0 +1,873 @@
+# Copyright (C) 2021 Andrew Barchuk
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ieverly 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/langfit\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-10T22:19:00+00:00\n"
+"PO-Revision-Date: 2021-03-17 13:43+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ieverly\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.5.1; wp-5.7"
+
+#: template-parts/home/home-price.php:68
+#: template-parts/schools/schools-price.php:68
+msgid "1000+"
+msgstr ""
+
+#: inc/post-type/reviews.php:14
+msgid "Add New"
+msgstr ""
+
+#: inc/post-type/reviews.php:15
+msgid "Add New case"
+msgstr ""
+
+#: template-parts/schools/schools-questions.php:15
+#: template-parts/teachers/teachers-questions.php:15
+msgid "Advanced questions"
+msgstr "FAQ"
+
+#. Author of the theme
+msgid "Andrew Barchuk"
+msgstr ""
+
+#: template-parts/home/home-benefits.php:21
+msgid "benefits description 1"
+msgstr "Количество проведенных уроков"
+
+#: template-parts/home/home-benefits.php:31
+msgid "benefits description 2"
+msgstr "Количество активных преподавателей"
+
+#: template-parts/home/home-benefits.php:41
+msgid "benefits description 3"
+msgstr "Количество активных студентов"
+
+#: template-parts/home/home-benefits.php:20
+msgid "benefits title 1"
+msgstr "+50000"
+
+#: template-parts/home/home-benefits.php:30
+msgid "benefits title 2"
+msgstr "+150"
+
+#: template-parts/home/home-benefits.php:40
+msgid "benefits title 3"
+msgstr "+600"
+
+#: inc/meta-box/reviews.php:24
+msgid "Check if show on schools page"
+msgstr ""
+
+#: inc/meta-box/reviews.php:30
+msgid "Check if show on teachers page"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: footer.php:20 template-parts/home/home-price.php:71
+#: template-parts/schools/schools-price.php:71
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+#: inc/meta-box/reviews.php:53
+msgid "Custom link title"
+msgstr ""
+
+#: inc/meta-box/reviews.php:47
+msgid "Custom link url"
+msgstr ""
+
+#: inc/template-tags.php:74
+msgid "Custom settings"
+msgstr ""
+
+#. Description of the theme
+msgid "Custom theme"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "E-mail"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/post-type/reviews.php:16
+msgid "Edit case"
+msgstr ""
+
+#: inc/meta-box/reviews.php:42
+msgid "Enter link"
+msgstr ""
+
+#: inc/meta-box/pages.php:27
+msgid "Enter link 1"
+msgstr ""
+
+#: inc/meta-box/pages.php:33
+msgid "Enter link 2"
+msgstr ""
+
+#: inc/meta-box/pages.php:39
+msgid "Enter link 3"
+msgstr ""
+
+#: inc/meta-box/pages.php:45
+msgid "Enter link 4"
+msgstr ""
+
+#: inc/meta-box/reviews.php:54
+msgid "Enter link title"
+msgstr ""
+
+#: inc/meta-box/reviews.php:48
+msgid "Enter link url"
+msgstr ""
+
+#: inc/meta-box/reviews.php:36
+msgid "Enter text"
+msgstr ""
+
+#: inc/meta-box/reviews.php:41
+msgid "Fb link"
+msgstr ""
+
+#: template-parts/home/home-price.php:30
+#: template-parts/schools/schools-price.php:30
+#: template-parts/teachers/teachers-price.php:29
+msgid "first 3  months"
+msgstr "Первые 3 месяца бесплатно"
+
+#: template-parts/home/home-price.php:36 template-parts/home/home-price.php:44
+#: template-parts/home/home-price.php:52 template-parts/home/home-price.php:60
+#: template-parts/schools/schools-price.php:36
+#: template-parts/schools/schools-price.php:44
+#: template-parts/schools/schools-price.php:52
+#: template-parts/schools/schools-price.php:60
+#: template-parts/teachers/teachers-price.php:35
+msgid "For a lesson"
+msgstr "За урок"
+
+#: template-parts/teachers/teachers-price.php:38
+msgid "four month"
+msgstr ""
+
+#: footer.php:41
+msgid "General information"
+msgstr "Общая информация"
+
+#: functions.php:54
+msgid "Header menu"
+msgstr ""
+
+#: template-parts/home/home-hero.php:21
+msgid "hero description 1"
+msgstr "Переведите обучение в онлайн в кратчайшие сроки"
+
+#: template-parts/home/home-hero.php:22
+msgid "hero description 2"
+msgstr "Автоматизируйте рутинные рабочие процессы"
+
+#: template-parts/home/home-hero.php:23
+msgid "hero description 3"
+msgstr "Получите доступ к инновационной методологии преподавания"
+
+#: template-parts/home/home-hero.php:18
+msgid "hero title"
+msgstr "Платформа для языковых школ и преподавателей"
+
+#. Template Name of the theme
+msgid "Home"
+msgstr ""
+
+#: template-parts/home/home-howstart.php:25
+#: template-parts/schools/schools-howstart.php:25
+#: template-parts/teachers/teachers-howstart.php:25
+msgid "how start box title 1"
+msgstr "Оставьте заявку"
+
+#: template-parts/home/home-howstart.php:34
+#: template-parts/schools/schools-howstart.php:34
+#: template-parts/teachers/teachers-howstart.php:34
+msgid "how start box title 2"
+msgstr "Дождитесь ответа нашего менеджера"
+
+#: template-parts/home/home-howstart.php:43
+#: template-parts/schools/schools-howstart.php:43
+#: template-parts/teachers/teachers-howstart.php:43
+msgid "how start box title 3"
+msgstr "Получите доступ к платформе и подробные инструкции"
+
+#: template-parts/home/home-howstart.php:52
+#: template-parts/schools/schools-howstart.php:52
+#: template-parts/teachers/teachers-howstart.php:52
+msgid "how start box title 4"
+msgstr "Начните работу онлайн"
+
+#: template-parts/home/home-howstart.php:15
+#: template-parts/schools/schools-howstart.php:15
+#: template-parts/teachers/teachers-howstart.php:15
+msgid "How to start"
+msgstr "Как начать"
+
+#. Theme URI of the theme
+msgid "http://andrewbarchuk.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://andrewbarchuk.com/ieverly"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "ieverly"
+msgstr ""
+
+#: functions.php:56
+msgid "Info menu"
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/sidebars.php:11
+msgid "Language switcher"
+msgstr ""
+
+#: template-parts/home/home-about.php:48 template-parts/home/home-offer.php:30
+#: template-parts/home/home-offer.php:39 template-parts/home/home-offer.php:48
+#: template-parts/schools/schools-about.php:48
+#: template-parts/teachers/teachers-about.php:48
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: template-parts/home/home-howstart.php:60
+#: template-parts/schools/schools-howstart.php:60
+#: template-parts/teachers/teachers-howstart.php:60
+msgid "Leave a request"
+msgstr "Оставить заявку"
+
+#: template-parts/teachers/teachers-parthners.php:23
+msgid "Leave a request for cooperation"
+msgstr ""
+
+#: template-parts/home/home-price.php:39 template-parts/home/home-price.php:47
+#: template-parts/home/home-price.php:55 template-parts/home/home-price.php:63
+#: template-parts/home/home-price.php:68
+#: template-parts/schools/schools-price.php:39
+#: template-parts/schools/schools-price.php:47
+#: template-parts/schools/schools-price.php:55
+#: template-parts/schools/schools-price.php:63
+#: template-parts/schools/schools-price.php:68
+msgid "Lessons per month"
+msgstr "уроков в месяц"
+
+#: inc/meta-box/pages.php:26
+msgid "Link 1"
+msgstr ""
+
+#: inc/meta-box/pages.php:32
+msgid "Link 2"
+msgstr ""
+
+#: inc/meta-box/pages.php:38
+msgid "Link 3"
+msgstr ""
+
+#: inc/meta-box/pages.php:44
+msgid "Link 4"
+msgstr ""
+
+#: template-parts/home/home-metodology.php:16
+#: template-parts/schools/schools-metodology.php:15
+#: template-parts/teachers/teachers-metodology.php:15
+msgid "Methodology"
+msgstr ""
+"Методология LangFit - это интеграция современных информационных технологий, "
+"прикладной лингвистики и интервально-круговых принципов спортивных "
+"тренировок."
+
+#: template-parts/home/home-about.php:18
+msgid "methodology description 1"
+msgstr ""
+"Методология поддерживает изучение многих языков (уже апробированы более 10 "
+"языков), дает возможность учить студентов разных возрастов - как детей, так "
+"и взрослых. А также применяется к контенту любых учебников и тем."
+
+#: template-parts/home/home-about.php:31
+msgid "methodology description 2"
+msgstr ""
+"Методология построена на интервальных повторениях, которые помогают "
+"\"переписывать\" знания с краткосрочной в долгосрочную память. Движение "
+"вперед сопровождается сбалансированным возвращением к пройденному материалу. "
+"Это помогает студенту удерживать и использовать знания всех предыдущих "
+"уроков."
+
+#: template-parts/home/home-about.php:38
+msgid "methodology description 3"
+msgstr ""
+"Преподаватель проходит вместе со студентами уже готовые спринты (части "
+"словаря). Это экономит время подготовки к занятию. В то же время он "
+"постоянно включен в интересный интерактивный процесс, что добавляет новизны "
+"и держит навыки преподавания \"в форме\"."
+
+#: template-parts/home/home-about.php:17
+msgid "methodology title 1"
+msgstr "Адаптивная для возраста, языков и контента"
+
+#: template-parts/home/home-about.php:30
+msgid "methodology title 2"
+msgstr "Базируется на результатах исследований памяти"
+
+#: template-parts/home/home-about.php:37
+msgid "methodology title 3"
+msgstr "Преподавателю не нужно готовиться к каждому занятию"
+
+#: inc/meta-box/reviews.php:35
+msgid "Name description"
+msgstr ""
+
+#: inc/post-type/reviews.php:17
+msgid "New case"
+msgstr ""
+
+#: single.php:26
+msgid "Next Post"
+msgstr ""
+
+#: inc/post-type/reviews.php:20
+msgid "No case found"
+msgstr ""
+
+#: inc/post-type/reviews.php:21
+msgid "No case found in Trash"
+msgstr ""
+
+#: template-parts/content-none.php:14 template-parts/not-found.php:12
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: template-parts/home/home-offer.php:28
+msgid "offer description 1"
+msgstr ""
+"Переведите школу в онлайн в кратчайшие\n"
+"сроки, автоматизируйте контроль над бизнесом\n"
+"и масштабируйтесь.\n"
+
+#: template-parts/home/home-offer.php:38
+msgid "offer description 2"
+msgstr ""
+"Забудьте о множестве открытых вкладок,\n"
+"документов и мессенджеров - процесс\n"
+"преподавания становится более комфортным.\n"
+
+#: template-parts/home/home-offer.php:47
+msgid "offer description 3"
+msgstr ""
+"Запустите собственный учебный онлайн проект на базе готовых материалов, "
+"методологии и функционала."
+
+#: template-parts/home/home-offer.php:27
+msgid "offer title 1"
+msgstr "Языковым школам"
+
+#: template-parts/home/home-offer.php:37
+msgid "offer title 2"
+msgstr "Преподавателям иностранных языков"
+
+#: template-parts/home/home-offer.php:46
+msgid "offer title 3"
+msgstr "Открыть собственную школу"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: functions.php:55
+msgid "Page menu"
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/teachers/teachers-parthners.php:17
+msgid "parthners title"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid "Phone number"
+msgstr ""
+
+#: single.php:25
+msgid "Preview Post"
+msgstr ""
+
+#: template-parts/home/home-price.php:38
+#: template-parts/schools/schools-price.php:38
+msgid "price count 1"
+msgstr "1 — 300"
+
+#: template-parts/home/home-price.php:46
+#: template-parts/schools/schools-price.php:46
+msgid "price count 2"
+msgstr "301 - 400"
+
+#: template-parts/home/home-price.php:54
+#: template-parts/schools/schools-price.php:54
+msgid "price count 3"
+msgstr "401 - 600"
+
+#: template-parts/home/home-price.php:62
+#: template-parts/schools/schools-price.php:62
+msgid "price count 4"
+msgstr "601 - 1000"
+
+#: template-parts/home/home-price.php:20
+#: template-parts/schools/schools-price.php:20
+msgid "Price description"
+msgstr ""
+"Мы ценим ваши результаты и лояльность. Больше занятий - меньше оплата за "
+"пользование сервисом. Никаких дополнительных платежей во время пауз в "
+"пользовании платформой."
+
+#: template-parts/home/home-price.php:79
+#: template-parts/schools/schools-price.php:79
+#: template-parts/teachers/teachers-price.php:46
+msgid "Price info"
+msgstr "Цены пересматриваются ежегодно в конце первого квартала (31 марта)."
+
+#: template-parts/home/home-price.php:35
+#: template-parts/schools/schools-price.php:35
+msgid "price step 1"
+msgstr "14.99₴"
+
+#: template-parts/home/home-price.php:43
+#: template-parts/schools/schools-price.php:43
+msgid "price step 2"
+msgstr "12.99₴"
+
+#: template-parts/home/home-price.php:51
+#: template-parts/schools/schools-price.php:51
+msgid "price step 3"
+msgstr "9.99₴"
+
+#: template-parts/home/home-price.php:59
+#: template-parts/schools/schools-price.php:59
+msgid "price step 4"
+msgstr "6.99₴"
+
+#: template-parts/home/home-price.php:16
+#: template-parts/schools/schools-price.php:16
+msgid "Price title"
+msgstr "Больше преподаете - меньше платите"
+
+#: inc/template-functions.php:38
+msgid "Read post"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/post-type/reviews.php:12 inc/post-type/reviews.php:13
+msgid "Reviews"
+msgstr ""
+
+#: inc/meta-box/reviews.php:12
+msgid "Reviews settings"
+msgstr ""
+
+#: template-parts/home/home-reviews.php:16
+#: template-parts/schools/schools-reviews.php:16
+#: template-parts/teachers/teachers-reviews.php:16
+msgid "Reviews title"
+msgstr "Отзывы о нас"
+
+#. Template Name of the theme
+msgid "Schools"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:21
+msgid "schools benefits description 1"
+msgstr "Количество проведенных уроков"
+
+#: template-parts/schools/schools-benefits.php:31
+msgid "schools benefits description 2"
+msgstr "Количество школ-партнеров"
+
+#: template-parts/schools/schools-benefits.php:41
+msgid "schools benefits description 3"
+msgstr "Количество активных студентов"
+
+#: template-parts/schools/schools-benefits.php:20
+msgid "schools benefits title 1"
+msgstr "+50000"
+
+#: template-parts/schools/schools-benefits.php:30
+msgid "schools benefits title 2"
+msgstr "+10"
+
+#: template-parts/schools/schools-benefits.php:40
+msgid "schools benefits title 3"
+msgstr "+600"
+
+#: template-parts/schools/schools-branding.php:20
+msgid "schools branding description"
+msgstr ""
+"Сохраните идентичность вашей школы. Мы разместим сервис на вашем домене с "
+"собственным логотипом."
+
+#: template-parts/schools/schools-branding.php:16
+msgid "schools branding title"
+msgstr "Брендирование"
+
+#: template-parts/schools/schools-hero.php:20
+msgid "schools hero description 1"
+msgstr ""
+"Контролируйте процессы и качество преподавания\n"
+
+#: template-parts/schools/schools-hero.php:21
+msgid "schools hero description 2"
+msgstr "Получите доступ к уникальной методологии обучения"
+
+#: template-parts/schools/schools-hero.php:22
+msgid "schools hero description 3"
+msgstr "Автоматизируйте расчет зарплат и отчетов"
+
+#: template-parts/schools/schools-hero.php:17
+msgid "schools hero title"
+msgstr "Администрировать языковую школу становится проще"
+
+#: template-parts/schools/schools-about.php:18
+msgid "schools methodology description 1"
+msgstr ""
+"Методология поддерживает изучение многих языков (уже апробированы более 10 "
+"языков), дает возможность учить студентов разных возрастов - как детей, так "
+"и взрослых. А также применяется к контенту любых учебников и тем."
+
+#: template-parts/schools/schools-about.php:31
+msgid "schools methodology description 2"
+msgstr ""
+"Методология построена на интервальных повторениях, которые помогают "
+"\"переписывать\" знания с краткосрочной в долгосрочную память. Движение "
+"вперед сопровождается сбалансированным возвращением к пройденному материалу. "
+"Это помогает студенту удерживать и использовать знания всех предыдущих "
+"уроков."
+
+#: template-parts/schools/schools-about.php:38
+msgid "schools methodology description 3"
+msgstr ""
+"Преподаватель проходит вместе со студентами уже готовые спринты (части "
+"словаря). Это экономит время подготовки к занятию. В то же время он "
+"постоянно включен в интересный интерактивный процесс, что добавляет новизны "
+"и держит навыки преподавания \"в форме\"."
+
+#: template-parts/schools/schools-about.php:17
+msgid "schools methodology title 1"
+msgstr "Адаптивная для возраста, языков и контента"
+
+#: template-parts/schools/schools-about.php:30
+msgid "schools methodology title 2"
+msgstr "Базируется на результатах исследований памяти"
+
+#: template-parts/schools/schools-about.php:37
+msgid "schools methodology title 3"
+msgstr "Преподавателю не нужно готовиться к каждому занятию"
+
+#: template-parts/schools/schools-offer.php:23
+msgid "schools offer description 1"
+msgstr ""
+"Формируйте и контролируйте работу собственной команды преподавателей.\n"
+
+#: template-parts/schools/schools-offer.php:28
+msgid "schools offer description 2"
+msgstr ""
+"Отслеживайте статистику количества и продолжительности проведенных "
+"преподавателями занятий. Отчеты и расчеты формируются автоматически."
+
+#: template-parts/schools/schools-offer.php:33
+msgid "schools offer description 3"
+msgstr ""
+"Используйте виртуальный кабинет для удобного взаимодействия преподавателей и "
+"студентов в режиме онлайн. Демонстрируйте учебный материал и фиксируйте его "
+"в словарях студентов во время занятий."
+
+#: template-parts/schools/schools-offer.php:38
+msgid "schools offer description 4"
+msgstr ""
+"Пользуйтесь большой библиотекой учебных материалов различного уровня и "
+"тематики. Добавляйте авторские материалы и курсы."
+
+#: template-parts/schools/schools-offer.php:43
+msgid "schools offer description 5"
+msgstr ""
+"Добавляйте, проверяйте и храните различного типа домашние задания в профилях "
+"студентов. Контролируйте качество их проверки преподавателями."
+
+#: template-parts/schools/schools-offer.php:22
+msgid "schools offer title 1"
+msgstr "Кабинет владельца школы"
+
+#: template-parts/schools/schools-offer.php:27
+msgid "schools offer title 2"
+msgstr "Статистика и отчетность"
+
+#: template-parts/schools/schools-offer.php:32
+msgid "schools offer title 3"
+msgstr "Виртуальные классы"
+
+#: template-parts/schools/schools-offer.php:37
+msgid "schools offer title 4"
+msgstr "Доступ к материалам и возможность добавлять свои"
+
+#: template-parts/schools/schools-offer.php:42
+msgid "schools offer title 5"
+msgstr "Домашние задания"
+
+#: inc/post-type/reviews.php:19
+msgid "Search case"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/meta-box/pages.php:14
+msgid "Settings"
+msgstr ""
+
+#: inc/meta-box/reviews.php:23
+msgid "Show on Schools?"
+msgstr ""
+
+#: inc/meta-box/reviews.php:29
+msgid "Show on Teachers?"
+msgstr ""
+
+#: functions.php:57
+msgid "Social networks"
+msgstr ""
+
+#: footer.php:28
+msgid "Solutions"
+msgstr "Решения"
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/home/home-price.php:31
+#: template-parts/schools/schools-price.php:31
+#: template-parts/teachers/teachers-price.php:30
+msgid "Start"
+msgstr "Начать"
+
+#: template-parts/teachers/teachers-price.php:37
+msgid "start at"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Teachers"
+msgstr ""
+
+#: template-parts/teachers/teachers-benefits.php:21
+msgid "teachers benefits description 1"
+msgstr "Количество проведенных уроков"
+
+#: template-parts/teachers/teachers-benefits.php:31
+msgid "teachers benefits description 2"
+msgstr "Количество активных преподавателей"
+
+#: template-parts/teachers/teachers-benefits.php:41
+msgid "teachers benefits description 3"
+msgstr "Количество активных студентов"
+
+#: template-parts/teachers/teachers-benefits.php:20
+msgid "teachers benefits title 1"
+msgstr "+50000"
+
+#: template-parts/teachers/teachers-benefits.php:30
+msgid "teachers benefits title 2"
+msgstr "+150"
+
+#: template-parts/teachers/teachers-benefits.php:40
+msgid "teachers benefits title 3"
+msgstr "+600"
+
+#: template-parts/teachers/teachers-hero.php:20
+msgid "teachers hero description 1"
+msgstr ""
+"Преподавайте своим студентам или присоединитесь к онлайн-школе на платформе\n"
+
+#: template-parts/teachers/teachers-hero.php:21
+msgid "teachers hero description 2"
+msgstr "Забудьте о множестве вкладок и документов"
+
+#: template-parts/teachers/teachers-hero.php:22
+msgid "teachers hero description 3"
+msgstr ""
+"Получите доступ к уникальной методологии с готовым учебным материалом\n"
+
+#: template-parts/teachers/teachers-hero.php:17
+msgid "teachers hero title"
+msgstr ""
+"Преподавайте онлайн и зарабатывайте больше\n"
+
+#: template-parts/teachers/teachers-about.php:18
+msgid "teachers methodology description 1"
+msgstr ""
+"Методология построена на интервальных повторениях, которые помогают "
+"\"переписывать\" знания с краткосрочной в долгосрочную память. Движение "
+"вперед сопровождается сбалансированным возвращением к пройденному материалу. "
+"Это помогает студенту удерживать и использовать знания всех предыдущих "
+"уроков."
+
+#: template-parts/teachers/teachers-about.php:31
+msgid "teachers methodology description 2"
+msgstr ""
+"Преподаватель проходит вместе со студентами уже готовые спринты (части "
+"словаря). Это экономит время подготовки к занятию. В то же время он "
+"постоянно включен в интересный интерактивный процесс, что добавляет новизны "
+"и держит навыки преподавания \"в форме\"."
+
+#: template-parts/teachers/teachers-about.php:38
+msgid "teachers methodology description 3"
+msgstr ""
+"Студентам нравится интенсивный темп и игровой процесс обучения. Системная "
+"тренировка речевых навыков становится хорошей привычкой и частью их образа "
+"жизни."
+
+#: template-parts/teachers/teachers-about.php:17
+msgid "teachers methodology title 1"
+msgstr ""
+"Базируется на результатах исследований памяти\n"
+
+#: template-parts/teachers/teachers-about.php:30
+msgid "teachers methodology title 2"
+msgstr ""
+"Не нужно готовиться к каждому занятию\n"
+
+#: template-parts/teachers/teachers-about.php:37
+msgid "teachers methodology title 3"
+msgstr ""
+"Постоянный интерес и лояльность студентов\n"
+
+#: template-parts/teachers/teachers-offer.php:26
+msgid "teachers offer description 1"
+msgstr ""
+"Используйте виртуальный кабинет для удобного взаимодействия со студентами в "
+"режиме онлайн. Демонстрируйте учебный материал и фиксируйте его в словарях "
+"студентов во время занятий."
+
+#: template-parts/teachers/teachers-offer.php:31
+msgid "teachers offer description 2"
+msgstr ""
+"Получите готовый инструмент преподавания - набор активностей и сценариев "
+"уроков. Освойте последовательную и универсальную методику, которая подойдет "
+"для студентов любого языка и уровня знаний."
+
+#: template-parts/teachers/teachers-offer.php:36
+msgid "teachers offer description 4"
+msgstr ""
+"Пользуйтесь большой библиотекой учебных материалов различного уровня и "
+"тематики. Добавляйте авторские материалы."
+
+#: template-parts/teachers/teachers-offer.php:41
+msgid "teachers offer description 5"
+msgstr ""
+"Добавляйте, проверяйте и храните различного типа домашние задания в профиле "
+"студента."
+
+#: template-parts/teachers/teachers-offer.php:25
+msgid "teachers offer title 1"
+msgstr "Интерактивные онлайн занятия"
+
+#: template-parts/teachers/teachers-offer.php:30
+msgid "teachers offer title 2"
+msgstr "Уникальная учебная методология"
+
+#: template-parts/teachers/teachers-offer.php:35
+msgid "teachers offer title 4"
+msgstr "Доступ к материалам и добавление собственных"
+
+#: template-parts/teachers/teachers-offer.php:40
+msgid "teachers offer title 5"
+msgstr "Домашние задания"
+
+#: template-parts/teachers/teachers-price.php:19
+msgid "teachers price description"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:15
+msgid "teachers price title"
+msgstr ""
+
+#: template-parts/teachers/teachers-price.php:34
+msgid "teachers step 1"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "Theme settings"
+msgstr ""
+
+#: template-parts/home/home-about.php:49 template-parts/home/home-hero.php:25
+#: template-parts/schools/schools-about.php:49
+#: template-parts/schools/schools-hero.php:24
+#: template-parts/teachers/teachers-about.php:49
+#: template-parts/teachers/teachers-hero.php:24
+msgid "Try for free"
+msgstr "Попробовать бесплатно"
+
+#: inc/template-tags.php:142
+msgid "Video"
+msgstr ""
+
+#: inc/post-type/reviews.php:18
+msgid "View case"
+msgstr ""
+
+#: template-parts/home/home-offer.php:19
+#: template-parts/schools/schools-offer.php:15
+#: template-parts/teachers/teachers-offer.php:17
+msgid "We offer"
+msgstr "Мы предлагаем"

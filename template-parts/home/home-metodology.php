@@ -8,7 +8,7 @@
  */
 ?>
 
-<section class="home-methodology">
+<section class="home-methodology" id="methodology">
     <img class="bg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/metodology__bg.png" alt="metodology">
     <div class="container">
         <div class="row">

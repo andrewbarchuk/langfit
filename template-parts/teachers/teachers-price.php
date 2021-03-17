@@ -34,8 +34,8 @@
                         <div class="price__step-num"><?php esc_html_e('teachers step 1', 'ieverly'); ?></div>
                         <span><?php esc_html_e('For a lesson', 'ieverly'); ?></span>
                         <div class="divider"></div>
-                        <span><?php esc_html_e('start at', 'ieverly'); ?></span>
-                        <div class="price__step-count"><?php esc_html_e('four month', 'ieverly'); ?></div>
+                        <div class="price__step-count"><?php esc_html_e('price count 1', 'ieverly'); ?></div>
+                        <span><?php esc_html_e('Lessons per month', 'ieverly'); ?></span>
                     </div>
                 </div>
             </div>

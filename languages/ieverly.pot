@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-03-17T12:42:40+00:00\n"
+"POT-Creation-Date: 2021-03-17T17:04:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: ieverly\n"
@@ -337,32 +337,26 @@ msgid "Try for free"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:20
-#: template-parts/schools/schools-benefits.php:20
 msgid "benefits title 1"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:21
-#: template-parts/schools/schools-benefits.php:21
 msgid "benefits description 1"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:30
-#: template-parts/schools/schools-benefits.php:30
 msgid "benefits title 2"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:31
-#: template-parts/schools/schools-benefits.php:31
 msgid "benefits description 2"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:40
-#: template-parts/schools/schools-benefits.php:40
 msgid "benefits title 3"
 msgstr ""
 
 #: template-parts/home/home-benefits.php:41
-#: template-parts/schools/schools-benefits.php:41
 msgid "benefits description 3"
 msgstr ""
 
@@ -426,7 +420,7 @@ msgstr ""
 
 #: template-parts/home/home-offer.php:19
 #: template-parts/schools/schools-offer.php:15
-#: template-parts/teachers/teachers-offer.php:17
+#: template-parts/teachers/teachers-offer.php:15
 msgid "We offer"
 msgstr ""
 
@@ -495,6 +489,7 @@ msgstr ""
 
 #: template-parts/home/home-price.php:38
 #: template-parts/schools/schools-price.php:38
+#: template-parts/teachers/teachers-price.php:37
 msgid "price count 1"
 msgstr ""
 
@@ -508,6 +503,7 @@ msgstr ""
 #: template-parts/schools/schools-price.php:55
 #: template-parts/schools/schools-price.php:63
 #: template-parts/schools/schools-price.php:68
+#: template-parts/teachers/teachers-price.php:38
 msgid "Lessons per month"
 msgstr ""
 
@@ -580,6 +576,30 @@ msgstr ""
 
 #: template-parts/schools/schools-about.php:38
 msgid "schools methodology description 3"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:20
+msgid "schools benefits title 1"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:21
+msgid "schools benefits description 1"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:30
+msgid "schools benefits title 2"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:31
+msgid "schools benefits description 2"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:40
+msgid "schools benefits title 3"
+msgstr ""
+
+#: template-parts/schools/schools-benefits.php:41
+msgid "schools benefits description 3"
 msgstr ""
 
 #: template-parts/schools/schools-branding.php:16
@@ -715,35 +735,35 @@ msgstr ""
 msgid "teachers hero description 3"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:25
+#: template-parts/teachers/teachers-offer.php:22
 msgid "teachers offer title 1"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:26
+#: template-parts/teachers/teachers-offer.php:23
 msgid "teachers offer description 1"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:30
+#: template-parts/teachers/teachers-offer.php:27
 msgid "teachers offer title 2"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:31
+#: template-parts/teachers/teachers-offer.php:28
 msgid "teachers offer description 2"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:35
+#: template-parts/teachers/teachers-offer.php:32
 msgid "teachers offer title 4"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:36
+#: template-parts/teachers/teachers-offer.php:33
 msgid "teachers offer description 4"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:40
+#: template-parts/teachers/teachers-offer.php:37
 msgid "teachers offer title 5"
 msgstr ""
 
-#: template-parts/teachers/teachers-offer.php:41
+#: template-parts/teachers/teachers-offer.php:38
 msgid "teachers offer description 5"
 msgstr ""
 
@@ -765,12 +785,4 @@ msgstr ""
 
 #: template-parts/teachers/teachers-price.php:34
 msgid "teachers step 1"
-msgstr ""
-
-#: template-parts/teachers/teachers-price.php:37
-msgid "start at"
-msgstr ""
-
-#: template-parts/teachers/teachers-price.php:38
-msgid "four month"
 msgstr ""

@@ -6,6 +6,7 @@
     position: relative;
     background: $c-accent;
     overflow: hidden;
+    padding: 6vw 0 4vw;
 
     .container {
         position: relative;
@@ -19,7 +20,7 @@
     align-items: flex-start;
 
     a {
-        font-size: 30px;
+        font-size: 18px;
         color: $c-black;
         text-decoration: none;
         line-height: 120%;
@@ -79,7 +80,10 @@
     ul {
         display: flex;
         flex-direction: row;
-        gap: 15px;
+
+        li {
+            margin: 0 0 0 15px;
+        }
 
         a {
             display: flex;

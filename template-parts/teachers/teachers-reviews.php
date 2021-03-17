@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="home-reviews content">
+<section class="teachers-reviews content">
     <div class="container">
         <div class="row">
             <div class="col-12">

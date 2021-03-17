@@ -12,9 +12,9 @@
 
 ?>
 
-<footer id="colophon" class="site__footer content">
+<footer id="colophon" class="site__footer">
 	<div class="container">
-		<div class="row">
+		<div class="row fline">
 			<div class="col-lg-4">
 				<div class="footer__contact">
 					<span><?php esc_html_e( 'Contact us', 'ieverly' ); ?></span>
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3">
+			<div class="col-lg-3 m2">
 				<nav class="site__footer-menu">
 					<h4><?php esc_html_e( 'Solutions', 'ieverly' ); ?></h4>
 					<?php
@@ -36,7 +36,7 @@
 				</nav>
 			</div>
 
-			<div class="col-lg-3">
+			<div class="col-lg-3 m3">
 				<nav class="site__footer-menu">
 					<h4><?php esc_html_e( 'General information', 'ieverly' ); ?></h4>
 					<?php
@@ -49,7 +49,7 @@
 				</nav>
 			</div>
 
-			<div class="col-lg-2 lang-end">
+			<div class="col-lg-2 m1 lang-end">
 				<?php dynamic_sidebar('lang'); ?>
 			</div>
 		</div>
