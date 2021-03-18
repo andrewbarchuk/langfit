@@ -496,5 +496,21 @@
     .cta {
         width: 100%;
     }
+
+    .modal__content {
+        h4 {
+            font-size: 20px;
+            line-height: 140%;
+            margin: 25px 0 20px;
+        }
+
+        .cta {
+            margin: 15px 0;
+        }
+    }
+
+    .inp {
+        padding: 10px;
+    }
    
 }

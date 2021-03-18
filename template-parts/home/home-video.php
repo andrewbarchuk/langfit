@@ -12,7 +12,7 @@ $video_url = wp_get_attachment_url( $video_id );
 <section class="home-video">
     <div class="video__box">
         <div class="video__box-tag">
-            <video autoplay loop preload>
+            <video playsinline muted autoplay loop preload data-url="<?php esc_html_e($video_url); ?>">
                 <source src="<?php esc_html_e($video_url); ?>">
                 <p class="warning">Your browser does not support HTML5 video.</p>
             </video>

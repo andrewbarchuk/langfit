@@ -69,6 +69,23 @@ const settings = {
 			};
 		});
 
+		// hide video
+		function hide_video() {
+			const video_source = document.querySelector('.video__box-tag source'),
+				  video_url = document.querySelector('.video__box-tag video').dataset.url;
+			
+			if (window.matchMedia("(min-width: 992px)").matches) {
+				video_source.setAttribute('src', video_url);
+			} else {
+				video_source.removeAttribute('src');
+			}
+		}
+		hide_video();
+
+		window.addEventListener('resize', function (event) {
+			hide_video();
+		});
+
 		// Menu toggle button
 		function navigation_togge() {
 			const siteNavigation = document.getElementById('site-navigation');
@@ -118,8 +135,8 @@ const settings = {
 			// Toogle when click # tag
 			document.querySelectorAll('.site__header-nav-box a[href^="#"]').forEach((pod) => {
 				pod.addEventListener('click', function () {
-					siteNavigation.classList.remove( 'toggled' );
-					button.setAttribute( 'aria-expanded', 'false' );
+					siteNavigation.classList.remove('toggled');
+					button.setAttribute('aria-expanded', 'false');
 					document.querySelector('body').style.removeProperty('overflow');
 				});
 			});
