@@ -16,7 +16,7 @@
 			<div class="col-lg-7">
 				<div class="hero__text">
 					<h1><?php esc_html_e( 'hero title', 'ieverly' ); ?></h1>
-					<img class="appscreen" src="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/images/appscreen.png" alt="screen app">
+					<img class="appscreen" src="<?php esc_html_e(get_theme_mod('cover')); ?>" alt="screen app">
 					<ul class="hero__text-benefits">
 						<li><?php esc_html_e( 'hero description 1', 'ieverly' ); ?></li>
 						<li><?php esc_html_e( 'hero description 2', 'ieverly' ); ?></li>

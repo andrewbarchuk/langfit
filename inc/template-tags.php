@@ -148,6 +148,29 @@ if (!function_exists('theme_op')) :
 				'mime_type' => 'video',
 			)
 		));
+
+		// cover image
+		$wp_customize->add_setting(
+			'cover', //No need to use a SERIALIZED name, as `theme_mod` settings already live under one db record
+			array(
+				'default'    => '', //Default setting/value to save
+				'type'       => 'theme_mod', //Is this an 'option' or a 'theme_mod'?
+				'capability' => 'edit_theme_options', //Optional. Special permissions for accessing this setting.
+				//'transport'  => 'postMessage', //What triggers a refresh of the setting? 'refresh' or 'postMessage' (instant)?
+			)
+		);
+		$wp_customize->add_control(new WP_Customize_Image_Control(
+			$wp_customize, //Pass the $wp_customize object (required)
+			'ieverly_theme_cover_title', //Set a unique ID for the control
+			array(
+				'label'      => __('Cover', 'ieverly'), //Admin-visible name of the control
+				'description' => __('Check cover'),
+				'settings'   => 'cover', //Which setting to load and manipulate (serialized is okay)
+				'priority'   => 10, //Determines the order this control appears in for the specified section
+				'section'    => 'ieverly_options', //ID of the section this control should render in (can be one of yours, or a WordPress default section)
+				'type'    => 'image'
+			)
+		));
 	}
 	add_action('customize_register', 'theme_op');
 endif;
