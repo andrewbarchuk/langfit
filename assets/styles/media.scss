@@ -401,6 +401,10 @@
         margin: 25px 0;
     }
 
+    .entry-title {
+        font-size: 36px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -512,5 +516,20 @@
     .inp {
         padding: 10px;
     }
-   
+
+    .page__full {
+        .entry-content {
+          background: none;
+          padding: 0;
+          border-radius: 0;
+
+          .cta, .wp-block-button__link {
+            margin: 30px auto;
+          }
+        }
+    }
+
+    .entry-title {
+        font-size: 32px;
+    }
 }

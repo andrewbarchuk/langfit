@@ -45,12 +45,14 @@ const settings = {
 		cta_form();
 
 		// modal
-		MicroModal.init({
-			disableScroll: true,
-			awaitOpenAnimation: true,
-			awaitCloseAnimation: true,
-			debugMode: true
-		});
+		if (document.querySelector('.cta[data-from]')) {
+			MicroModal.init({
+				disableScroll: true,
+				awaitOpenAnimation: true,
+				awaitCloseAnimation: true,
+				debugMode: true
+			});
+		}
 
 		// add anchors
 		document.querySelectorAll('a[href^="#"]').forEach((trigger) => {
@@ -80,11 +82,14 @@ const settings = {
 				video_source.removeAttribute('src');
 			}
 		}
-		hide_video();
 
-		window.addEventListener('resize', function (event) {
+		if (document.querySelector('.video__box-tag')) {
 			hide_video();
-		});
+
+			window.addEventListener('resize', function (event) {
+				hide_video();
+			});
+		}
 
 		// Menu toggle button
 		function navigation_togge() {
