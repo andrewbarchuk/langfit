@@ -11,8 +11,11 @@ const glide_settings = {
 		if (slider) {
 			// Glide settings
 			const glide = new Glide('.glide', {
+				autoplay: 4000,
+				hoverpause: true,
+				animationDuration: 1000,
 				type: 'carousel',
-				gap: '0',
+				gap: '0'
 			});
 
 			// Glide mount

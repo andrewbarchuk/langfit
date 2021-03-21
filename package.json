@@ -9,9 +9,9 @@
     "Theme"
   ],
   "devDependencies": {
-    "@babel/core": "^7.13.8",
-    "@babel/preset-env": "^7.13.9",
-    "@wordpress/scripts": "^13.0.3",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@wordpress/scripts": "^14.0.1",
     "babel-polyfill": "^6.26.0",
     "browser-sync": "^2.26.14",
     "dir-archiver": "^1.2.0",
@@ -33,7 +33,7 @@
     "gulp-watch": "^5.0.1"
   },
   "scripts": {
-    "bundle": "gulp && dir-archiver --src . --dest ../ieverly.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor gulp-vendors.json gulpfile.js package-lock.json package.json .travis.yml phpcs.xml.dist assets sass style.css.map"
+    "bundle": "gulp && dir-archiver --src . --dest ../ieverly.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules languages vendor gulp-vendors.json gulpfile.js package-lock.json package.json .travis.yml phpcs.xml.dist assets sass style.css.map"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
